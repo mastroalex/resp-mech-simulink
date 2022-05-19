@@ -1,0 +1,179 @@
+\documentclass[12 pt,a4paper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian,english]{babel}
+\usepackage{indentfirst} 
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{amsmath,stix,bm}
+\usepackage{eucal}
+\usepackage{caption}
+
+\usepackage{multicol}
+\usepackage[includeheadfoot,margin=0.7in,top=0.3 in,bottom=0.35in]{geometry}
+%Per grafica vettoriale tramite InkScape%
+\usepackage{color}
+\usepackage{transparent}
+\graphicspath{{img/}}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{pdfpages}
+\usepackage{pgfplots}
+\usepackage{textcomp}
+
+\usepackage{xcolor,colortbl}
+\usepackage{listings}
+\usepackage{cleveref}
+\usepackage{caption}
+\DeclareCaptionFont{quack}{}
+\captionsetup[figure]{font={color=gray,small},labelfont={color=black,sc}}
+\captionsetup[table]{font={color=gray,small},labelfont={color=black,sc}}
+\captionsetup[subfigure]{font={color=gray,small},labelfont={color=black}}
+\addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
+\addto\captionsenglish{\renewcommand{\tablename}{Tab.}}
+\addto\captionsitalian{\renewcommand{\tablename}{Tab.}}
+\crefname{table}{Tab.}{Tabs.}  
+
+\usepackage{cancel}
+
+\usepackage{subcaption}
+\usepackage{titlesec}
+\titleformat*{\section}{\Large\bfseries\color{myGeneralColor}}
+\titleformat*{\subsection}{\large\bfseries\color{myGeneralColor}}
+\titleformat*{\subsubsection}{\itshape\bfseries\color{myGeneralColor}}
+\definecolor{burntsienna}{rgb}{0.91, 0.45, 0.32}
+\definecolor{carrotorange}{rgb}{0.93, 0.57, 0.13}
+\definecolor{darktangerine}{rgb}{1.0, 0.66, 0.07}
+\definecolor{deepsaffron}{rgb}{1.0, 0.6, 0.2}
+\definecolor{flax}{rgb}{0.93, 0.86, 0.51}
+\definecolor{lava}{rgb}{0.81, 0.06, 0.13}
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\definecolor{mintbg}{rgb}{.63,.79,.95}
+\graphicspath{{figures/}{code/figures/}{../code/figures/}} %Setting the graphicspath
+\makeatletter
+\def\input@path{{figures/}{code/figures/}{../code/figures/}}
+\makeatother
+\usepackage{import}
+\usepackage{authblk}
+\pgfplotsset{compat=newest}
+\pgfplotsset{plot coordinates/math parser=false}
+\newlength\figureheight
+\newlength\figurewidth
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{blindtext}
+\usepackage{authblk}
+\renewcommand\Affilfont{\tiny \color{gray}}
+
+\title{\vspace*{10 pt}\color{myGeneralColor}\Huge\textbf{Simulazione di un modello RLC per la meccanica respiratoria in Simulink}\vspace*{1 pt}}
+\author[]{Mastrofini Alessandro}
+\affil[]{\small alessandro.mastrofini@alumni.uniroma2.eu}
+\renewcommand*{\Authand}{ e }
+\date{}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+	\lhead{\small\color{gray} University of Rome Tor Vergata - MSSF}
+\fancyfoot[C]{\small{\thepage\  di \pageref{LastPage}}}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancypagestyle{plain}{
+	\renewcommand{\headrulewidth}{0pt}
+	%\setlength{\headheight}{80 pt} 
+	\lhead{\small\color{gray} Modellazione e Simulazione di Sistemi Fisiologici  \\
+	Docente: Caselli, Federica \\
+	Università degli Studi di Roma Tor Vergata\\
+	Ingegneria Medica - 2022}
+	\rhead{\includegraphics[height=45pt]{logo.png} }
+	\fancyfoot{}
+}
+\usepackage{lastpage}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\usepackage{lipsum}
+\usepackage[
+backend=bibtex,
+style=numeric
+]{biblatex} %Imports biblatex package
+\addbibresource{mybib.bib} %Import the bibliography file
+
+\usepackage{listings}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codestring}{rgb}{0.623, 0.176, 0.588}
+\definecolor{backcolour}{rgb}{0.96,0.96,0.96}
+\definecolor{bbcolour}{rgb}{0.01,0.03,0.35}
+\definecolor{indexcolour}{rgb}{0,0.4,0.4}
+\definecolor{myOrange}{rgb}{0.933, 0.313, 0.066}
+\definecolor{myBlue}{rgb}{0, 0.298, 0.8}
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	classoffset=1,
+	keywordstyle=\color{bbcolour},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codestring},
+	basicstyle=\ttfamily\small,
+	breakatwhitespace=false,  
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=false,                 
+	numbers=left,                    
+	numbersep=3pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\lstset{texcl=false, mathescape=true,style=mystyle}
+\lstset{emph={%  
+		i, j,X%
+	},emphstyle={\color{bbcolour}}%
+}%
+\definecolor{myGeneralColor}{rgb}{0, 0.227, 0.580}
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=7cm, minimum height=1cm,text centered,  fill=backcolour,text width=6.5 cm,draw=gray]
+\tikzstyle{startstop2} = [rectangle, rounded corners, minimum width=5cm, minimum height=2cm,text centered,  fill=backcolour,draw=gray]
+\tikzstyle{io} = [trapezium, trapezium left angle=80, trapezium right angle=100, minimum width=7cm, minimum height=1cm, text centered,text width=6.5 cm,  fill=backcolour,draw=gray]
+\tikzstyle{io2} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=2cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray]
+\tikzstyle{process} = [rectangle, minimum width=7cm, minimum height=1cm, text centered,text width=6.5cm,  fill=backcolour,text badly centered,draw=gray]
+\tikzstyle{decision} = [diamond, minimum width=1cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray,text width=2cm]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{process2} = [rectangle, minimum width=3.5cm, text width=3.2cm,minimum height=1cm, text centered, dashed, fill=backcolour,draw=gray]
+\tikzstyle{process3} = [rectangle, minimum width=4cm,text width=4cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray]
+\tikzstyle{process4} = [rectangle, minimum width=6cm,text width=5.5cm, minimum height=1cm, text centered,  fill=backcolour,draw=gray]
+
+\begin{document}
+
+
+\twocolumn[{
+\begin{@twocolumnfalse} 
+		\vspace*{20 pt}
+	\begingroup
+	\let\center\flushleft
+	\maketitle
+	\let\endcenter\endflushleft
+	\endgroup
+	\begin{abstract}
+% \noindent
+% \noindent\\
+% \noindent
+% \noindent
+% \noindent
+\textcolor{blue}{
+\lipsum[1]
+}
+
+%% ABSTRACT 
+
+	\end{abstract}
+	\vspace*{20 pt}
+\end{@twocolumnfalse}
+}]
+
+\input{testo.tex}
+
+\end{document}
