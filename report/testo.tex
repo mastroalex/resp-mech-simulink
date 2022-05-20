@@ -8,6 +8,92 @@
 \section{Background}
 
 
+SCRIVI QUALCOSA
+
+\subsection{Analogia circuitale}
+
+\begin{figure*}[t!]
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\small{
+			\def\svgwidth{\linewidth}
+			\input{circuit.pdf_tex}}
+		\caption{}
+		\label{fig:modello}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\small{
+			\def\svgwidth{0.7\linewidth}
+			\input{lung.pdf_tex}}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{Analogia circuitale della meccanica respiratoria \cite{khoo_physiological_2018} (a); Rappresentazione schematica della divisione del circuito polmonare in due contributi resistivi (vie aeree superiori e inferiori) e in due contributi capacitivi (compliance del polmone e della parete toracica), raffigurate anche la pressione alveolare e pleurica.}
+\end{figure*}
+
+Il circuito polmonare può essere analizzando facendo un'analogia con i circuiti elettrici.
+
+In particolare è possibile fare un parallelismo tra il flusso d'aria e la corrente elettrica (flusso di cariche) vedendo e la pressione come la presenza di un potenziale elettrico.
+Si rivede allora la resistenza meccanica come il rapporto tra l'incremento di pressione rispetto il flusso, analoga alla resisitenza elettrica. Similmente la compliance non è altro che il rapporto tra l'aumento di volume e l'aumento di pressione, in analogia elettrica è un condensatore.
+
+Il sistema in \cref{fig:modello} è un modello di meccanica respiratoria che trascura la presenza di contributi inerziali (non ci induttanze) e considera la presenza di due compartimenti. Sono separate le vie aeree superiori, con il loro contributo resistivo $R_C$ dalle vie aeree inferiori $R_P$. I due compartimenti sono in serie tra loro ed in serie ai serbatoi d'aria, ovvero le capacità rappresentanti il contributo di compliance della parete $C_W$ e del polmone $C_L$. 
+Tali contributi sono in serie proprio perchè il volume d'aria passante è lo stesso. 
+
+A questo si aggiunge anche la capacità di shunt $C_S$ che tiene conto di diversi contributi quali lo spazio morto anatomico, la deformabilità delle vie aeree e la comprimibilità dell'aria. 
+
+Si identificano allora anche le pressioni nei nodi. La pressione alle vie aeree $P_{aw}$, la pressione pleurica $P_{pl}$ e la pressione alveolare $P_A$. Chiaramente l'ingresso del sistema, dato dalla bocca e dalle cavità nasali, è rappresentato dalla pressione all'apertura delle vie aeree $P_{aO}$. 
+
+
+
+\subsection{Risposta del sistema}
+
+Il circuito in \cref{fig:modello} può essere descritto dalle seguenti equazioni:
+
+\begin{equation}
+	\footnotesize{
+	\left\{\begin{array}{l}
+		P_{a O}=Q R_{C}+\frac{1}{C_{S}} \int\left(Q-Q_{A}\right) \\
+		\frac{1}{C_{s}} \int\left(Q-Q_{A}\right)=Q_{A} R_{P}+\left(\frac{1}{C_{L}}+\frac{1}{C_{W}}\right) \int Q_{A}
+	\end{array}\right.}
+\end{equation}
+
+Si ottiene allora la funzione di trasferimento del sistema:
+
+\begin{equation}
+		\footnotesize{
+\begin{aligned}
+	H(s)&=\frac{Q(s)}{P_{a O}(s)}\\
+	&=\frac{s^{2}+s \frac{1}{R_{P}}\left(\frac{1}{C_{S}}+\frac{1}{C_{e q}}\right)}{s^{2}\left(R_{C}\right)+s\left(\frac{R_{C}+R_{P}+\frac{R_{C} C_{S}}{C_{e q}}}{C_{S} R_{P}}\right)+\frac{1}{C_{e q} C_{S} R_{P}}}
+\end{aligned}}
+\end{equation}
+
+Dove si esprime la serie delle capacità come ${1\over C_{eq}}={1\over C_{L}}+{1\over C_{W}}$. 
+
+\subsection{Proprietà del sistema}
+
+I coefficienti numerici vengono selezionati da \citeauthor{khoo_physiological_2018} \cite{khoo_physiological_2018}, sono riportati in \cref{tab:coefficienti}.
+
+
+\begin{table}[!ht]
+	\centering
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Parametro & Valore & Unità \\ \hline
+		$R_C$ & 1 & H\textsubscript{2}O s / L \\ \hline
+		$R_P$ & 0.5 & H\textsubscript{2}O s / L \\ \hline
+		$C_L$ & 0.2 & L cm / H\textsubscript{2}O \\ \hline
+		$C_W$ & 0.2 & L cm / H\textsubscript{2}O \\ \hline
+		$C_S$ & 0.005 & L cm / H\textsubscript{2}O \\ \hline
+	\end{tabular}
+\caption{Coefficienti numerici per il sistema \cite{khoo_physiological_2018}}
+\label{tab:coefficienti}
+\end{table}
+
+\section{Modellazione del sistema}
+
+\subsection{Simulink}
+
+
 
 \section{Conclusioni}
 

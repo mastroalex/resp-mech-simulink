@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  19 MAY 2022 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  20 MAY 2022 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1470,73 +1470,81 @@ Package biblatex Info: Reference segment=0 on input line 149.
  (./testo.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-8.
 
-(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
+(./figures//circuit.pdf_tex
+<figures//circuit.pdf, id=4, page=1, 267.25665pt x 160.4597pt>
+File: figures//circuit.pdf Graphic file (type pdf)
+<use figures//circuit.pdf, page 1>
+Package pdftex.def Info: figures//circuit.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 248.16516pt x 148.99826pt.
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 18.
+ne 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 18.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 18.
+ine 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 18.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 18.
+ne 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 18.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 18.
+e 57.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
+<figures//circuit.pdf, id=5, page=2, 267.25665pt x 160.4597pt>
+File: figures//circuit.pdf Graphic file (type pdf)
+<use figures//circuit.pdf, page 2>
+Package pdftex.def Info: figures//circuit.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 248.16516pt x 148.99826pt.
+)
+(./figures//lung.pdf_tex
+<figures//lung.pdf, id=6, page=1, 305.30646pt x 355.03726pt>
+File: figures//lung.pdf Graphic file (type pdf)
+<use figures//lung.pdf, page 1>
+Package pdftex.def Info: figures//lung.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 173.71484pt x 202.01578pt.
+)
+Underfull \hbox (badness 1077) in paragraph at lines 34--35
+[]\T1/stix/m/n/12 Il cir-cuito pol-monare può es-sere anal-iz-zando
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-\T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
-m /
- []
-
-<figures//logo.png, id=4, 336.384pt x 337.698pt>
+<figures//logo.png, id=7, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 25.
+Package pdftex.def Info: figures//logo.png  used on input line 38.
 (pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1550,23 +1558,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./figures//logo.png>]
+Underfull \hbox (badness 2134) in paragraph at lines 44--45
+[]\T1/stix/m/n/12 Si iden-ti-f-i-cano al-lora an-che le pres-sioni nei
+ []
 
-LaTeX Warning: Empty bibliography on input line 25.
 
+Underfull \vbox (badness 4846) has occurred while \output is active []
+
+
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 53
+.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 58.
+
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
+.
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 70.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2 <./figures//circuit.pdf> <./figures//circuit.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//circuit.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+> <./figures//lung.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//lung.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+04.
+ (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-
-Package caption Warning: Unused \captionsetup[figure] on input line 29.
-See the caption package documentation for explanation.
-
-
-Package caption Warning: Unused \captionsetup[table] on input line 30.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
+ []
 
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 31.
-See the caption package documentation for explanation.
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+\T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
+m /
+ []
 
 
+Underfull \hbox (badness 1895) in paragraph at lines 111--111
+\T1/stix/m/it/12 sys-tems: anal-y-sis, sim-u-la-tion, and es-ti-ma-
+ []
+
+) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1576,31 +1627,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2
-
-] (./report_respiratory_simulink.aux)
+[3] (./report_respiratory_simulink.aux)
 Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
 \openout1 = `report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45936 strings out of 478579
- 1052537 string characters out of 5857457
- 1709182 words of memory out of 5000000
- 63142 multiletter control sequences out of 15000+600000
- 459797 words of font info for 88 fonts, out of 8000000 for 9000
+ 46297 strings out of 478579
+ 1059689 string characters out of 5857457
+ 1721384 words of memory out of 5000000
+ 63492 multiletter control sequences out of 15000+600000
+ 525520 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,97p,1897b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2021/texmf-dis
+ 99i,18n,97p,1897b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021
+/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2021/texmf-dis
 t/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/font
-s/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sftt1200.pfb>
-Output written on report_respiratory_simulink.pdf (2 pages, 137645 bytes).
+s/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/ty
+pe1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1
+/public/cm-super/sftt1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
+ix/stix-mathcal.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-ma
+thex.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c
+:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
+Output written on report_respiratory_simulink.pdf (3 pages, 209478 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

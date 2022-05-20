@@ -16,5 +16,45 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{khoo_physiological_2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KMCK}{%
+         family={Khoo},
+         familyi={K\bibinitperiod},
+         given={Michael C.\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Press ; Wiley}%
+    }
+    \keyw{Biological control systems, Mathematical models, Physiology}
+    \strng{namehash}{KMCK1}
+    \strng{fullhash}{KMCK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{edition}{Second editon}
+    \field{isbn}{978-1-119-05533-4}
+    \field{series}{{IEEE} {Press} series in biomedical engineering}
+    \field{shorttitle}{Physiological control systems}
+    \field{title}{Physiological control systems: analysis, simulation, and
+  estimation}
+    \list{location}{1}{%
+      {Piscataway, NJ : Hoboken, New Jersey}%
+    }
+    \verb{file}
+    \verb Khoo - 2018 - Physiological control systems analysis, simulatio.pdf:C
+    \verb \:\\Users\\bigba\\Zotero\\storage\\6PG5WU26\\Khoo - 2018 - Physiologi
+    \verb cal control systems analysis, simulatio.pdf:application/pdf
+    \endverb
+    \field{year}{2018}
+  \endentry
+\enddatalist
 \endinput
