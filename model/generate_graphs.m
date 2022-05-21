@@ -1,7 +1,12 @@
 function generate_graphs(filename)
 close all
 localPath=pwd;
-load(strcat(localPath,'/',filename))
+%load(strcat(localPath,'/',filename))
+
+myfile=uigetfile;
+load(strcat(localPath,'/data_log/',myfile))
+
+
 
 % data clear 
 noise_point=find(mechanics_lung.Data(:,2)==min(mechanics_lung.Data(:,2)));
@@ -23,7 +28,8 @@ ylim([-25;30])
 ylabel('Input [cmH2O]')
 yyaxis right
 ylim([-25;30])
-ylabel('Flux [cmH2O/s] CONTROLLA')
-
-exportgraphics(figure(1),strcat(localPath,'/',filename,'.pdf'),'BackgroundColor','none','ContentType','vector');
+ylabel('Flux [L/s]')
+grid on
+newname=strrep(myfile,'.mat','.pdf');
+exportgraphics(figure(1),strcat(localPath,'/data_log/',newname),'BackgroundColor','none','ContentType','vector');
 end
