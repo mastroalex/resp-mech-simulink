@@ -1,4 +1,7 @@
-load lung_mech_extended_data_export.mat
+function generate_graphs(filename)
+
+localPath=pwd;
+load(strcat(localPath,'/',filename))
 
 % data clear 
 noise_point=find(mechanics_lung.Data(:,2)==min(mechanics_lung.Data(:,2)));
@@ -21,3 +24,5 @@ ylabel('Input [cmH2O]')
 yyaxis right
 ylim([-25;30])
 ylabel('Flux [cmH2O/s] CONTROLLA')
+
+end
