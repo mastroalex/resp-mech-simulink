@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  20 MAY 2022 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  21 MAY 2022 19:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1563,22 +1563,31 @@ Underfull \hbox (badness 2134) in paragraph at lines 44--45
  []
 
 
-Underfull \vbox (badness 4846) has occurred while \output is active []
-
-
-
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 53
 .
 
-LaTeX Font Info:    Calculating math sizes for size <> on input line 58.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 59.
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 63
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 64
 .
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 70.
+(amsmath)                 on input line 72.
+
+<figures//simulink_base.pdf, id=17, 775.26338pt x 130.39516pt>
+File: figures//simulink_base.pdf Graphic file (type pdf)
+<use figures//simulink_base.pdf>
+Package pdftex.def Info: figures//simulink_base.pdf  used on input line 77.
+(pdftex.def)             Requested size: 496.33032pt x 83.48047pt.
+
+Underfull \hbox (badness 5431) in paragraph at lines 85--86
+[]\T1/stix/m/n/12 Chiaramente la soluzione di tale prob-lema
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1597,27 +1606,104 @@ iple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./figures//lung.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[]\T1/stix/m/n/12 Esiste tut-tavia la pos-si-bil-ità di uti-liz-zare
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 116--117
+[]\T1/stix/m/n/12 Inoltre, tale am-bi-ente per-me-tte l'integrazione
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-04.
- (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+20.
+(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+<figures//simulink_ventilator.pdf, id=28, 423.13582pt x 161.60374pt>
+File: figures//simulink_ventilator.pdf Graphic file (type pdf)
+<use figures//simulink_ventilator.pdf>
+Package pdftex.def Info: figures//simulink_ventilator.pdf  used on input line 1
+32.
+(pdftex.def)             Requested size: 198.5291pt x 75.82307pt.
+<figures//simulink_ventilator_GUI.png, id=29, 392.96812pt x 794.2172pt>
+File: figures//simulink_ventilator_GUI.png Graphic file (type png)
+<use figures//simulink_ventilator_GUI.png>
+Package pdftex.def Info: figures//simulink_ventilator_GUI.png  used on input li
+ne 137.
+(pdftex.def)             Requested size: 392.96715pt x 794.21526pt.
+<figures//simulink_lung.pdf, id=30, 794.97pt x 297.03673pt>
+File: figures//simulink_lung.pdf Graphic file (type pdf)
+<use figures//simulink_lung.pdf>
+Package pdftex.def Info: figures//simulink_lung.pdf  used on input line 160.
+(pdftex.def)             Requested size: 496.33032pt x 185.45712pt.
+
+Underfull \hbox (badness 4036) in paragraph at lines 170--171
+\T1/stix/m/n/12 per vi-su-al-iz-zare le forme d'onda di-ret-ta-mente
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <./figures//simulink_base.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 <./figures//simulink_ventilator.pdf> <./figures//simulink_ventilator_GUI.png
+> <./figures//simulink_lung.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 111--111
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+Underfull \hbox (badness 1895) in paragraph at lines 199--199
 \T1/stix/m/it/12 sys-tems: anal-y-sis, sim-u-la-tion, and es-ti-ma-
  []
 
-) 
+
+Underfull \hbox (badness 1990) in paragraph at lines 199--199
+[]\T1/stix/m/n/12 MathWorks. ``Simulink''. In: (2022). \T1/stix/m/sc/12 url\T1/
+stix/m/n/12 :
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6
+
+]) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1627,33 +1713,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3] (./report_respiratory_simulink.aux)
+[7
+
+
+] (./report_respiratory_simulink.aux)
 Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
 \openout1 = `report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46297 strings out of 478579
- 1059689 string characters out of 5857457
- 1721384 words of memory out of 5000000
- 63492 multiletter control sequences out of 15000+600000
- 525520 words of font info for 185 fonts, out of 8000000 for 9000
+ 46353 strings out of 478579
+ 1061339 string characters out of 5857457
+ 1724668 words of memory out of 5000000
+ 63544 multiletter control sequences out of 15000+600000
+ 528279 words of font info for 186 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,97p,1897b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021
 /texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2021/texmf-dis
 t/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/font
+s/type1/public/stix/STIXGeneral-BoldItalic.pfb><c:/texlive/2021/texmf-dist/font
 s/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/ty
 pe1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1
 /public/cm-super/sftt1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
 ix/stix-mathcal.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-ma
 thex.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c
 :/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on report_respiratory_simulink.pdf (3 pages, 209478 bytes).
+Output written on report_respiratory_simulink.pdf (7 pages, 1391822 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 212 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

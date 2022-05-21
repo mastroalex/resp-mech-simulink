@@ -39,7 +39,7 @@ Si rivede allora la resistenza meccanica come il rapporto tra l'incremento di pr
 Il sistema in \cref{fig:modello} è un modello di meccanica respiratoria che trascura la presenza di contributi inerziali (non ci induttanze) e considera la presenza di due compartimenti. Sono separate le vie aeree superiori, con il loro contributo resistivo $R_C$ dalle vie aeree inferiori $R_P$. I due compartimenti sono in serie tra loro ed in serie ai serbatoi d'aria, ovvero le capacità rappresentanti il contributo di compliance della parete $C_W$ e del polmone $C_L$. 
 Tali contributi sono in serie proprio perchè il volume d'aria passante è lo stesso. 
 
-A questo si aggiunge anche la capacità di shunt $C_S$ che tiene conto di diversi contributi quali lo spazio morto anatomico, la deformabilità delle vie aeree e la comprimibilità dell'aria. 
+A questo si aggiunge anche la capacità di shunt $C_S$ che tiene conto di diversi contributi quali lo spazio morto anatomico, la deformabilità delle vie aeree e la comprimibilità dell'aria. Normalmente questo volume è molto piccolo in condizioni respiratorie normali (in assenza di patologie) e a basse frequenze respiratorie.
 
 Si identificano allora anche le pressioni nei nodi. La pressione alle vie aeree $P_{aw}$, la pressione pleurica $P_{pl}$ e la pressione alveolare $P_A$. Chiaramente l'ingresso del sistema, dato dalla bocca e dalle cavità nasali, è rappresentato dalla pressione all'apertura delle vie aeree $P_{aO}$. 
 
@@ -55,6 +55,7 @@ Il circuito in \cref{fig:modello} può essere descritto dalle seguenti equazioni
 		P_{a O}=Q R_{C}+\frac{1}{C_{S}} \int\left(Q-Q_{A}\right) \\
 		\frac{1}{C_{s}} \int\left(Q-Q_{A}\right)=Q_{A} R_{P}+\left(\frac{1}{C_{L}}+\frac{1}{C_{W}}\right) \int Q_{A}
 	\end{array}\right.}
+\label{eq:modello}
 \end{equation}
 
 Si ottiene allora la funzione di trasferimento del sistema:
@@ -65,39 +66,126 @@ Si ottiene allora la funzione di trasferimento del sistema:
 	H(s)&=\frac{Q(s)}{P_{a O}(s)}\\
 	&=\frac{s^{2}+s \frac{1}{R_{P}}\left(\frac{1}{C_{S}}+\frac{1}{C_{e q}}\right)}{s^{2}\left(R_{C}\right)+s\left(\frac{R_{C}+R_{P}+\frac{R_{C} C_{S}}{C_{e q}}}{C_{S} R_{P}}\right)+\frac{1}{C_{e q} C_{S} R_{P}}}
 \end{aligned}}
+\label{eq:fdt}
 \end{equation}
 
 Dove si esprime la serie delle capacità come ${1\over C_{eq}}={1\over C_{L}}+{1\over C_{W}}$. 
 
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=\linewidth]{simulink_base.pdf}
+	\caption{Modello del sistema in Simulink diviso in due blocchi principali, uno rappresentante il ventilatore polmonare e l'altro il sistema polmonare, a cui vengono aggiunti un blocco per il salvataggio dei dati e alcune funzioni di visualizzazione.}
+	\label{fig:generale}
+\end{figure*}
+
 \subsection{Proprietà del sistema}
+
+
+Chiaramente la soluzione di tale problema richiede la conoscenza della meccanica polmonare propria del paziente. Si assume che il paziente abbia una meccanica polmonare normale.
 
 I coefficienti numerici vengono selezionati da \citeauthor{khoo_physiological_2018} \cite{khoo_physiological_2018}, sono riportati in \cref{tab:coefficienti}.
 
 
-\begin{table}[!ht]
+\begin{table}[h!]
 	\centering
 	\begin{tabular}{|c|c|c|}
 		\hline
 		Parametro & Valore & Unità \\ \hline
-		$R_C$ & 1 & H\textsubscript{2}O s / L \\ \hline
-		$R_P$ & 0.5 & H\textsubscript{2}O s / L \\ \hline
-		$C_L$ & 0.2 & L cm / H\textsubscript{2}O \\ \hline
-		$C_W$ & 0.2 & L cm / H\textsubscript{2}O \\ \hline
-		$C_S$ & 0.005 & L cm / H\textsubscript{2}O \\ \hline
+		$R_C$ & 1 & cm H\textsubscript{2}O s / L \\ \hline
+		$R_P$ & 0.5 & cm H\textsubscript{2}O s / L \\ \hline
+		$C_L$ & 0.2 & L / cm  H\textsubscript{2}O \\ \hline
+		$C_W$ & 0.2 & L / cm  H\textsubscript{2}O \\ \hline
+		$C_S$ & 0.005 & L / cm  H\textsubscript{2}O \\ \hline
 	\end{tabular}
 \caption{Coefficienti numerici per il sistema \cite{khoo_physiological_2018}}
 \label{tab:coefficienti}
 \end{table}
 
-\section{Modellazione del sistema}
+\subsection{Modellazione del sistema}
+
+La risoluzione del sistema richiede la risoluzione di una ODE e l'approccio, quando le equazioni diventano complesse, è quello di trasferire il modello in un calcolatore. Il classico approccio è di tipo numerico, mediante l'utilizzo di un codice numerico di risoluzioni.
+
+Esiste tuttavia la possibilità di utilizzare Simulink. 
 
 \subsection{Simulink}
 
 
+Simulink \cite{simulink} è un software sviluppato da MathWorks che fornisce un approccio grafico basato su un ambiente che permette all'utente di convertire il problema in una rete di blocchi di funzioni matematica. 
 
+Inoltre, tale ambiente permette l'integrazione con l'ambiente di Matlab e le relative funzioni di programmazione. 
+
+Un primo approccio sintetico potrebbe essere quello di diagrammare un sistema ingresso-uscita per il tramite della funzione di trasferimento in \cref{eq:fdt}. Tale modello risulterebbe però troppo sintetico e non permetterebbe l'accesso ad alcune variabili esterne, come i singoli flussi.
+
+Si sceglie allora di modellare il sistema completo in \cref{eq:modello}. Tale sistema viene modellato nel blocco \texttt{lungs}. Vengono poi aggiunti anche un sotto sistema per simulare un ventilatore polmonare, ovvero l'ingresso come $P_{aO}$, e un blocco per visualizzare e salvare i dati.
+
+Uno schema generale di alto livello è presente in \cref{fig:generale}
+
+
+\subsubsection{Sotto sistema del ventilatore}
+
+
+\begin{figure*}[t!]
+	\centering
+	\begin{subfigure}{0.4\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{simulink_ventilator.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.6\linewidth}
+		\centering
+		\includegraphics[angle=90,width=0.95\linewidth]{simulink_ventilator_GUI}
+		\caption{}
+		\label{fig:mask}
+	\end{subfigure}\hfill
+	\caption{Sistema di input rappresentante il ventilatore: schema a blocchi Simulink dove il segnale di ingresso ($P_{aO}$) viene generato tramite una funzione (\text{fcn}) Matlab (a); GUI tramite la quale è possibile selezionare la frequenza respiratoria e selezionare la forma d'onda.}
+\end{figure*}
+
+
+Nel sotto sistema del ventilatore l'obiettivo è di fornire una $P_{aO}$ con una forma d'onda precisa. Vengono fornite diverse forme d'onda e la frequenza stessa, in atti respiratorio per minuto, può essere variata.
+
+Per fare questo si utilizza un blocco \texttt{funzione Matlab} mediante il quale si può definire un codice Matlab contente la forma d'onda della pressione al variare del tempo di input. Maggiori informazioni sono riportare in appendice. 
+
+Tale blocco richiede anche due variabili ausiliare tramite le quali è possibile scegliere la frequenza respiratoria e il tipo di forma d'onda direttamente dall'interfaccia grafica della maschera del blocco (\cref{fig:mask}). Tramite la maschera di blocco viene anche settata una funzione di callback che permette di aggiornare il nome del file di output, non appena vengono cambiati i parametri, con una struttura del tipo:
+\begin{equation*}
+	\text{"forma d'onda } + \text{ frequenza } + \text{ .mat"}
+\end{equation*}
+
+
+\subsubsection{Sotto sistema del polmone}
+
+
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=\linewidth]{simulink_lung.pdf}
+	\caption{Modello del blocco in Simulink rappresentante il circuito polmonare (in \cref{eq:modello}, \cref{fig:modello})}
+	\label{fig:simulinkLung}
+\end{figure*}
+
+Le equazioni descrittive del sistema (\cref{eq:modello}) e i relativi segmenti circuitali possono essere rappresentati direttamente nel modello Simulink in \cref{fig:simulinkLung}. 
+
+Tramite la modellazione in Simulink è possibile sommare i contributi di segnale (rappresentanti segmenti del circuito o, equivalentemente, membri dell'equazione), moltiplicare per un costante applicando un guadagno al segnale, derivare e integrare. 
+Chiaramente, per passare dal flusso al volume è sufficiente integrare nel tempo. 
+
+Sono presenti anche 3 blocchi di tipo \texttt{scope} per visualizzare le forme d'onda direttamente all'interno della simulazione, il blocco di ingresso (prende il segnale $P_{aO}$ direttamente dal ventilatore) e i 3 blocchi di output utilizzare per salvare i dati. 
+
+
+\section{Risultati}
+
+\subsection{Ventilazioni ideali}
+
+Un approccio semplice, per analizzare la meccanica polmonare, è quello di ventilare con una forma d'onda ideale. Si utilizza come prima analisi una forma sinusoidale di ampiezza di 2.5 cm H\textsubscript{2}O (ampiezza picco-picco di 5 cm H\textsubscript{2}) con una frequenza di 15 respiri al minuto \cite{khoo_physiological_2018}. 
+
+% This demonstrates that lung mechanics is dominated by compliance effects at such low frequencies. The peak-to-peak change in volume (i.e., tidal volume) is approxi­ mately 0.5 L, while peak Q is ∼0.4 L s  increases (to ∼1.2 L s-1) while tidal volume is decreased (to ∼0.4 L). Now, Q has become more in phase with Pao while volume displays a significant lag. Thus, resistive effects have become more dominant at the higher frequency. The changes in peak Q and tidal volume with frequency demonstrate the phenomenon pulmo­ nologists refer to as frequency dependence of pulmonary resistance and compli­ ance, that is, the lungs appear stiffer and less resistive as frequency increases from resting breathing. 
+
+\textcolor{blue}{
+	\lipsum[1-4]
+}
 \section{Conclusioni}
 
-
+\textcolor{blue}{
+	\lipsum[1-2]
+}
 %\pagebreak
 \section*{Disponibilità dei dati}
 
@@ -112,4 +200,7 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 %\section*{References}
 
 
+\clearpage
+\section*{Appendice}
 
+\subsection*{Codice per la generazione della pressione di ingresso}

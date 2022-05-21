@@ -56,5 +56,25 @@
     \endverb
     \field{year}{2018}
   \endentry
+
+  \entry{simulink}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={MathWorks},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Simulink}
+    \verb{url}
+    \verb https://it.mathworks.com/products/simulink.html
+    \endverb
+    \field{year}{2022}
+  \endentry
 \enddatalist
 \endinput
