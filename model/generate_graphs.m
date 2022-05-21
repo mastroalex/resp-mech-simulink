@@ -1,5 +1,5 @@
 function generate_graphs(filename)
-
+close all
 localPath=pwd;
 load(strcat(localPath,'/',filename))
 
@@ -25,4 +25,5 @@ yyaxis right
 ylim([-25;30])
 ylabel('Flux [cmH2O/s] CONTROLLA')
 
+exportgraphics(figure(1),strcat(localPath,'/',filename,'.pdf'),'BackgroundColor','none','ContentType','vector');
 end
