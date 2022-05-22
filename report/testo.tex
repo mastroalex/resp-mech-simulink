@@ -174,7 +174,9 @@ Sono presenti anche 3 blocchi di tipo \texttt{scope} per visualizzare le forme d
 
 \subsection{Ventilazioni ideali}
 
-Un approccio semplice, per analizzare la meccanica polmonare, è quello di ventilare con una forma d'onda ideale. Si utilizza come prima analisi una forma sinusoidale di ampiezza di 2.5 cm H\textsubscript{2}O (ampiezza picco-picco di 5 cm H\textsubscript{2}O) con una frequenza di 15 respiri al minuto \cite{khoo_physiological_2018}. 
+Un approccio semplice, per analizzare la meccanica polmonare, è quello di ventilare con una forma d'onda ideale. Si utilizza come prima analisi una forma sinusoidale di ampiezza di 2.5 cm H\textsubscript{2}O (ampiezza picco-picco di 5 cm H\textsubscript{2}O) con una frequenza di 15 respiri al minuto \cite{khoo_physiological_2018}, simile alla respirazione a riposo.
+
+Dai grafici in \cref{fig:sine_wave_15} è possibile vedere come il volume segue un andamento simile, seppur leggermente sfasato. Questo è indice che, a bassa frequenza, l'andamento è dominato dal contributo di compliance (dove c'è proporzionalità con l'integrale del flusso). L'ampiezza di picco del volume raggiunge 0.5 L e il flusso circa 0.7 L/s. L'andamento del flusso invece è significativamente sfasato rispetto il contributo di pressione in ingresso. 
 
 \begin{figure*}[t!]
 \begin{subfigure}{0.5\linewidth}
@@ -189,15 +191,41 @@ Un approccio semplice, per analizzare la meccanica polmonare, è quello di venti
 \end{subfigure}
 \caption{Confronto tra la pressione in ingresso con forma d'onda sinusoidale ideale con l'andamento del flusso e del volume (a); ingrandimento sull'andamento di flusso e volume (b). Si può osservare come volume e sfasamento presentano uno sfasamento di 90°. Inoltre, ne flusso ne volume sono in fase con l'andamento della $P_{aO}$. }
 \label{fig:sine_wave_15}
+	\centering
+\includegraphics[width=0.95\linewidth]{../model/data_log/data_sine_wave_freq_45_zoom.pdf}
+\caption{Andamento di flusso, volume e $P_{aO}$. L'ampiezza della $P_{aO}$ è scalata di un fattore $1/2$. Per la curva del flusso si osserva una riduzione delle sfasamento e un aumento dell'ampiezza di picco.Il volume tende a ridursi (rispetto al caso 15 respiri/min) simbolo di un comportamento più rigido del polmone.}
+\label{fig:sine_wave_45}
 \end{figure*}
 
-% This demonstrates that lung mechanics is dominated by compliance effects at such low frequencies. The peak-to-peak change in volume (i.e., tidal volume) is approxi­ mately 0.5 L, while peak Q is ∼0.4 L s  increases (to ∼1.2 L s-1) while tidal volume is decreased (to ∼0.4 L). Now, Q has become more in phase with Pao while volume displays a significant lag. Thus, resistive effects have become more dominant at the higher frequency. The changes in peak Q and tidal volume with frequency demonstrate the phenomenon pulmo­ nologists refer to as frequency dependence of pulmonary resistance and compli­ ance, that is, the lungs appear stiffer and less resistive as frequency increases from resting breathing. 
+Aumentando la frequenza, triplicando il numero di respiri al minuto (\cref{fig:sine_wave_45}), il polmone appare più rigido e infatti l'ampiezza del volume tende a ridursi nonostante aumenti il flusso. L'ampiezza di picco del volume passa da 0.5 L a 0.4 L sebbene il flusso sia passato da 0.7 L/s a quasi 2 L/s. Questo rappresenta come nonostante il ricambio d'aria sia maggiore il polmone per aumentare la frequenza respiratoria è costretto ad espandersi meno limitando l'introito complessivo di aria.   
 
+Inoltre, l'andamento del volume tende a sfasarsi maggiormente rispetto l'andamento della pressione mentre il flusso sembra essere più in fase, simbolo di un maggior contributo di tipo resistivo (proporzionalità diretta pressione-flusso).
 
-\subsection{Ventilazione N2 }
+Quindi, mentre a bassa frequenza (riposo) il contributo è maggiormente legato alla compliance, ad alta frequenza il comportamento resistivo sembra essere maggiormente presente.
+\\
 
+Una forma d'onda alternativa è l'onda quadra. Si può impostare una forma d'onda con ampiezza di picco equivalente alla precedente. Si osserva una risposta del sistema differente.
 
-\subsection{Ventilazione CPAP}
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/data_square_wave_freq_45_long.pdf}
+	\caption{}
+	\label{fig:square_wave_45}
+\end{figure*}
+
+\textcolor{red}{COMMENTA}
+
+\textcolor{red}{INSERISCI IL FATTO CHE VARIANDO LA FREQUENZA IL VOLUME NON CAMBIA}
+
+\textcolor{red}{VENTILAZIONE SQUARE WAVE}
+
+\subsection{Ventilazione a controllo di pressione}
+
+Le analisi precedente sono utili per giudicare il modello matematico è per avere un'idea di base sulla meccanica respiratoria. Tuttavia, in clinica, l'approccio alla ventilazione è leggermente differente.
+
+\textcolor{red}{BREVE DIFFERENZA TRA CONTROLLO VOLUME E PRESSIONE}
+
+\textcolor{red}{DESCRIVI CONTROLLO DI PRESSIONE CON CURVA CON RAISE TIME PRECISA}
 
 \subsection{Resistenza delle vie aeree}
 
