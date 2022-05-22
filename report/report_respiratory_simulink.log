@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  22 MAY 2022 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  22 MAY 2022 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1711,14 +1711,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--206
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<../model/data_log/data_square_wave_freq_45_long.pdf, id=161, 879.285pt x 339.2
-675pt>
-File: ../model/data_log/data_square_wave_freq_45_long.pdf Graphic file (type pd
-f)
-<use ../model/data_log/data_square_wave_freq_45_long.pdf>
-Package pdftex.def Info: ../model/data_log/data_square_wave_freq_45_long.pdf  u
-sed on input line 211.
-(pdftex.def)             Requested size: 471.51228pt x 181.92822pt.
+<../model/data_log/data_square_wave_freq_18.pdf, id=161, 384.43625pt x 303.1325
+pt>
+File: ../model/data_log/data_square_wave_freq_18.pdf Graphic file (type pdf)
+<use ../model/data_log/data_square_wave_freq_18.pdf>
+Package pdftex.def Info: ../model/data_log/data_square_wave_freq_18.pdf  used o
+n input line 212.
+(pdftex.def)             Requested size: 235.75613pt x 185.90039pt.
+<../model/data_log/PV_sine_vs_square.pdf, id=162, 365.365pt x 303.1325pt>
+File: ../model/data_log/PV_sine_vs_square.pdf Graphic file (type pdf)
+<use ../model/data_log/PV_sine_vs_square.pdf>
+Package pdftex.def Info: ../model/data_log/PV_sine_vs_square.pdf  used on input
+ line 217.
+(pdftex.def)             Requested size: 235.75613pt x 195.5999pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1730,12 +1735,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5 <../model/data_log/data_sine_wave_freq_15.pdf> <../model/data_log/data_sine_
 wave_freq_15_zoom.pdf> <../model/data_log/data_sine_wave_freq_45_zoom.pdf>]
-Underfull \hbox (badness 2698) in paragraph at lines 226--227
+Underfull \hbox (badness 2698) in paragraph at lines 234--235
 [][]\T1/stix/m/n/12 BREVE DIF-FERENZA TRA CON-TROLLO
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 228--229
+Underfull \hbox (badness 6575) in paragraph at lines 236--237
 [][]\T1/stix/m/n/12 DESCRIVI CON-TROLLO DI PRES-SIONE
  []
 
@@ -1751,24 +1756,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6 <../model/data_log/data_square_wave_freq_45_long.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+[6 <../model/data_log/data_square_wave_freq_18.pdf> <../model/data_log/PV_sine_
+vs_square.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 250--250
+Underfull \hbox (badness 1895) in paragraph at lines 258--258
 \T1/stix/m/it/12 sys-tems: anal-y-sis, sim-u-la-tion, and es-ti-ma-
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 250--250
+Underfull \hbox (badness 1990) in paragraph at lines 258--258
 []\T1/stix/m/n/12 MathWorks. ``Simulink''. In: (2022). \T1/stix/m/sc/12 url\T1/
 stix/m/n/12 :
  []
@@ -1801,10 +1807,10 @@ Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46415 strings out of 478579
- 1063462 string characters out of 5857457
+ 46422 strings out of 478579
+ 1063737 string characters out of 5857457
  1724779 words of memory out of 5000000
- 63597 multiletter control sequences out of 15000+600000
+ 63603 multiletter control sequences out of 15000+600000
  528610 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,97p,1897b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1819,10 +1825,10 @@ sftt1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathcal.p
 fb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texl
 ive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/te
 xmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on report_respiratory_simulink.pdf (8 pages, 1481602 bytes).
+Output written on report_respiratory_simulink.pdf (8 pages, 1493998 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
+ 347 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
