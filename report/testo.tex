@@ -273,16 +273,16 @@ Questo può essere espresso come una curva lineare a tratti (\cref{fig:PCV}) di 
 	\label{fig:clinical}
 \end{figure*}
 
-La PEEP generalmente si mantiene tra $5\div 10$ cmH\textsubscript{2}O mantenendo il volume nel range di $4\div 6$ ml/kg di peso corporeo. La $P_{aO}$ viene mantenuta sotto i 35 cm H\textsubscript{2}O \cite{ball_modes_2015}.
+La PEEP generalmente si mantiene tra $5\div 10$ cmH\textsubscript{2}O mantenendo il volume nel range di $4\div 6$ ml/kg di peso corporeo. La $P_{aO}$ viene mantenuta sotto i 35 cm H\textsubscript{2}O \cite{ball_modes_2015,article}.
 
-A tal proposito viene anche modificata l'interfaccia grafica (\cref{fig:mask}) in moto tale da permette la selezione di una forma d'onda di tipo onda quadra con un rise time e un offset di pressione, lasciando all'utente la possibilità di scegliere frequenza, tempo di inspirazione (in funzione del periodo), rise time (in funzione del tempo di inspirazione), $P_{aO}$ e $\mathrm{PEEP}$. 
+A tal proposito viene anche modificata l'interfaccia grafica (\cref{fig:mask}) in moto tale da permette la selezione di una forma d'onda di tipo onda quadra con un rise time e un offset di pressione, lasciando all'utente la possibilità di scegliere frequenza, tempo di inspirazione (in funzione del periodo), rise time (in funzione del tempo di inspirazione), $P_{aO}$ e $\mathrm{PEEP}$. L'interfaccia completa è presente in appendice (\cref{fig:interfaccia})
  
 
 
 Una volta impostato tale simulatore permette di calibrare la ventilazione e di addestrarsi nell'utilizzo di un ventilatore reale andando a vedere come i diversi parametri di ventilazione influenzano la meccanica respiratoria e soprattutto come modificare la ventilazione in base alla risposta del paziente.
 \\
 
-Nelle sezioni successive vengono fissati i parametri di ventilazione ad una frequenza di 18 respiri/min, un tempo di inspirazione del 40\% e un rise time del 20\%, con una $\mathrm{PEEP}$ di 5 cm H\textsubscript{2}O e una $P_{aO}=25$  cm H\textsubscript{2}O, e si analizza come varia la ventilazione in funzione della variazione dei parametri del paziente. 
+Nelle sezioni successive vengono fissati i parametri di ventilazione \cite{truwit_modes_2011} ad una frequenza di 18 respiri/min, un tempo di inspirazione del 40\% e un rise time del 20\%, con una $\mathrm{PEEP}$ di 5 cm H\textsubscript{2}O e una $P_{aO}=25$  cm H\textsubscript{2}O, e si analizza come varia la ventilazione in funzione della variazione dei parametri del paziente. 
 
  \begin{figure*}[t!]
 	\begin{subfigure}{0.5\linewidth}
@@ -295,11 +295,13 @@ Nelle sezioni successive vengono fissati i parametri di ventilazione ad una freq
 \includegraphics[width=0.95\linewidth]{../model/data_log/PV_rise_time.pdf}
 		\caption{}
 	\end{subfigure}
-	\caption{PCV con $T_{insp}=0.4*T$, $f=$18 respiri/min, $\tau=0.15*T_{insp}$, $\mathrm{PEEP}=5$ cm H\textsubscript{2}O e $P_{aO}=25$ cm H\textsubscript{2}O (a); diagramma PV di confronto con differenti tempi di salita, si osserva come varia il primo ramo di salita del volume, riducendo il rise time l'incremento di volume diventa sempre più brusco ma il volume massimo raggiunto è sempre lo stesso}
+	\caption{PCV con $T_{insp}=0.4*T$, $f=$18 respiri/min, $\tau=0.15*T_{insp}$, $\mathrm{PEEP}=5$ cm H\textsubscript{2}O e $P_{aO}=25$ cm H\textsubscript{2}O (a); diagramma PV di confronto con differenti tempi di salita, si osserva come varia il primo ramo di salita del volume, riducendo il rise time l'incremento di volume diventa sempre più brusco ma il volume massimo raggiunto è sempre lo stesso.}
 	\label{fig:rise_time}
 \end{figure*}
 
 \subsection{Resistenza delle vie aeree}
+
+
 
 \textcolor{blue}{
 	\lipsum[1-4]
@@ -326,6 +328,20 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 
 
 \clearpage
+\onecolumn
 \section*{Appendice}
-
 \subsection*{Codice per la generazione della pressione di ingresso}
+ \begin{figure*}[h!]
+\begin{lstlisting}[language=matlab]
+	content...
+\end{lstlisting}
+\end{figure*}
+
+\subsection*{Interfaccia grafica completa}
+
+ \begin{figure*}[h!]
+\centering\includegraphics[angle=90,width=0.96\linewidth]{GUI.png}
+	\caption{Interfaccia grafica completa del modello di ventilatore polmonare}
+	\label{fig:interfaccia}
+\end{figure*}
+

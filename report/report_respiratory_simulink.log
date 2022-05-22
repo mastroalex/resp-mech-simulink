@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  22 MAY 2022 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  22 MAY 2022 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1294,45 +1294,45 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count494
 \@quotereset=\count495
 LaTeX Font Info:    Trying to load font information for T1+stix on input line 1
-49.
+50.
 (c:/texlive/2021/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 )
 (./report_respiratory_simulink.aux)
 \openout1 = `report_respiratory_simulink.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 149.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 150.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-149.
+150.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 150.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-149.
+150.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Info: Redefining \it@ocap on input line 149.
-LaTeX Info: Redefining \it@ccap on input line 149.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Info: Redefining \it@ocap on input line 150.
+LaTeX Info: Redefining \it@ccap on input line 150.
 
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1373,9 +1373,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 149.
+or `english'. on input line 150.
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 149.
+alian.trsl' found. on input line 150.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1429,7 +1429,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 \c@lstlisting=\count502
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 149.
+(lastpage)             ! on input line 150.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1465,8 +1465,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report_respiratory_simulink.bbl' found.
 
 (./report_respiratory_simulink.bbl)
-Package biblatex Info: Reference section=0 on input line 149.
-Package biblatex Info: Reference segment=0 on input line 149.
+Package biblatex Info: Reference section=0 on input line 150.
+Package biblatex Info: Reference segment=0 on input line 150.
  (./testo.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1882,12 +1882,12 @@ pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
 pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--318
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
@@ -1902,41 +1902,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.p
 df> <../model/data_log/PV_rise_time.pdf>]
-Underfull \hbox (badness 6725) in paragraph at lines 324--324
+Underfull \hbox (badness 1895) in paragraph at lines 326--326
+\T1/stix/m/it/12 sys-tems: anal-y-sis, sim-u-la-tion, and es-ti-ma-
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 326--326
+[]\T1/stix/m/n/12 MathWorks. ``Simulink''. In: (2022). \T1/stix/m/sc/12 url\T1/
+stix/m/n/12 :
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 326--326
 \T1/stix/m/n/12 u-la-tion of Pres-sure Con-trolled Me-chan-i-
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 324--324
-\T1/stix/m/it/12 & Re-search Clin-i-cal Anaes-the-si-ol-ogy \T1/stix/m/n/12 29.
-3
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 324--324
+Underfull \hbox (badness 1831) in paragraph at lines 326--326
 \T1/stix/m/n/12 Sup-port and Man-age-ment of Patient- and
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 324--324
+Underfull \hbox (badness 3579) in paragraph at lines 326--326
 \T1/cmtt/m/n/12 4037 / ccn2011595$\T1/stix/m/n/12 . \T1/stix/m/sc/12 url\T1/sti
 x/m/n/12 : $\T1/cmtt/m/n/12 https : / /
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 324--324
+Underfull \hbox (badness 1635) in paragraph at lines 326--326
 \T1/cmtt/m/n/12 31 / 3 / 30 / 20282 / Overview -[] of -[]
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 324--324
-\T1/stix/m/it/12 sys-tems: anal-y-sis, sim-u-la-tion, and es-ti-ma-
+Underfull \hbox (badness 1264) in paragraph at lines 326--326
+\T1/stix/m/it/12 & Re-search Clin-i-cal Anaes-the-si-ol-ogy \T1/stix/m/n/12 29.
+3
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 324--324
-[]\T1/stix/m/n/12 MathWorks. ``Simulink''. In: (2022). \T1/stix/m/sc/12 url\T1/
-stix/m/n/12 :
+Underfull \hbox (badness 2762) in paragraph at lines 326--326
+\T1/stix/m/it/12 chan-i-cal Ven-ti-la-tion\T1/stix/m/n/12 . Ed. by Jonathon D.
  []
 
 
@@ -1947,9 +1952,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9
+[9] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+<figures//GUI.png, id=381, 389.95688pt x 716.6775pt>
+File: figures//GUI.png Graphic file (type png)
+<use figures//GUI.png>
+Package pdftex.def Info: figures//GUI.png  used on input line 343.
+(pdftex.def)             Requested size: 389.95592pt x 716.67577pt.
+)
 
-]) 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1962,36 +1974,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
 
-] (./report_respiratory_simulink.aux)
+ <./figures//GUI.png>] (./report_respiratory_simulink.aux)
 Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
 \openout1 = `report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46490 strings out of 478579
- 1066243 string characters out of 5857457
- 1725159 words of memory out of 5000000
- 63663 multiletter control sequences out of 15000+600000
- 531339 words of font info for 188 fonts, out of 8000000 for 9000
+ 47365 strings out of 478579
+ 1075575 string characters out of 5857457
+ 1891920 words of memory out of 5000000
+ 64532 multiletter control sequences out of 15000+600000
+ 531653 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,97p,1897b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021
-/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}{c:/texlive/2021/texmf-dist/fonts
-/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/pub
+ 99i,18n,97p,1897b,1875s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021/texmf-dis
+t/fonts/enc/dvips/stix/stix-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/pub
 lic/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
 ix/STIXGeneral-BoldItalic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
 ix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/S
 TIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/
-sftt1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathcal.p
-fb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texl
-ive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/te
-xmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fo
-nts/type1/public/stix/stix-mathscr.pfb>
-Output written on report_respiratory_simulink.pdf (10 pages, 1567811 bytes).
+sftt1095.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.p
+fb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/tex
+live/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/t
+exmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/f
+onts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
+public/stix/stix-mathscr.pfb>
+Output written on report_respiratory_simulink.pdf (10 pages, 1636673 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
+ 440 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

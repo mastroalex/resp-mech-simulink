@@ -16,7 +16,63 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}
+\datalist[entry]{none/global//global/global}
+  \entry{khoo_physiological_2018}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KMCK}{%
+         family={Khoo},
+         familyi={K\bibinitperiod},
+         given={Michael C.\bibnamedelima K.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Press ; Wiley}%
+    }
+    \keyw{Biological control systems, Mathematical models, Physiology}
+    \strng{namehash}{KMCK1}
+    \strng{fullhash}{KMCK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{edition}{Second editon}
+    \field{isbn}{978-1-119-05533-4}
+    \field{series}{{IEEE} {Press} series in biomedical engineering}
+    \field{shorttitle}{Physiological control systems}
+    \field{title}{Physiological control systems: analysis, simulation, and
+  estimation}
+    \list{location}{1}{%
+      {Piscataway, NJ : Hoboken, New Jersey}%
+    }
+    \verb{file}
+    \verb Khoo - 2018 - Physiological control systems analysis, simulatio.pdf:C
+    \verb \:\\Users\\bigba\\Zotero\\storage\\6PG5WU26\\Khoo - 2018 - Physiologi
+    \verb cal control systems analysis, simulatio.pdf:application/pdf
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{simulink}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={MathWorks},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Simulink}
+    \verb{url}
+    \verb https://it.mathworks.com/products/simulink.html
+    \endverb
+    \field{year}{2022}
+  \endentry
+
   \entry{al-naggar_modelling_2015}{article}{}
     \name{author}{1}{}{%
       {{hash=ANNQ}{%
@@ -33,8 +89,6 @@
     \strng{fullhash}{ANNQ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
     \field{abstract}{%
     A mathematical model of mechanical ventilator describes its behavior during
   artificial ventilation. This paper purposes to create and simulate
@@ -93,66 +147,6 @@
     \field{urlyear}{2022}
   \endentry
 
-  \entry{ball_modes_2015}{article}{}
-    \name{author}{3}{}{%
-      {{hash=BL}{%
-         family={Ball},
-         familyi={B\bibinitperiod},
-         given={Lorenzo},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=DM}{%
-         family={Dameri},
-         familyi={D\bibinitperiod},
-         given={Maddalena},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=PP}{%
-         family={Pelosi},
-         familyi={P\bibinitperiod},
-         given={Paolo},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {en}%
-    }
-    \strng{namehash}{BLDMPP1}
-    \strng{fullhash}{BLDMPP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \verb{doi}
-    \verb 10.1016/j.bpa.2015.08.003
-    \endverb
-    \field{issn}{15216896}
-    \field{number}{3}
-    \field{pages}{285\bibrangedash 299}
-    \field{title}{Modes of mechanical ventilation for the operating room}
-    \verb{url}
-    \verb https://linkinghub.elsevier.com/retrieve/pii/S1521689615000543
-    \endverb
-    \field{volume}{29}
-    \verb{file}
-    \verb Ball et al_2015_Modes of mechanical ventilation for the operating roo
-    \verb m.pdf:C\:\\Users\\bigba\\Zotero\\storage\\G85Y8XE2\\Ball et al_2015_M
-    \verb odes of mechanical ventilation for the operating room.pdf:application
-    \verb /pdf;Ball et al. - 2015 - Modes of mechanical ventilation for the ope
-    \verb rating .pdf:C\:\\Users\\bigba\\Zotero\\storage\\X2KRNCDY\\Ball et al.
-    \verb  - 2015 - Modes of mechanical ventilation for the operating .pdf:appl
-    \verb ication/pdf;Modes of mechanical ventilation for the operating room:C\
-    \verb :\\Users\\bigba\\Zotero\\storage\\77C7YLFW\\ball2015.pdf.pdf:applicat
-    \verb ion/pdf
-    \endverb
-    \field{journaltitle}{Best Practice \& Research Clinical Anaesthesiology}
-    \field{month}{09}
-    \field{year}{2015}
-    \field{urlday}{22}
-    \field{urlmonth}{05}
-    \field{urlyear}{2022}
-  \endentry
-
   \entry{grossbach_overview_2011}{article}{}
     \name{author}{3}{}{%
       {{hash=GI}{%
@@ -181,8 +175,6 @@
     \strng{fullhash}{GICLTMF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
     \field{abstract}{%
     Nurses must be knowledgeable about the function and limitations of
   ventilator modes, causes of respiratory distress and dyssynchrony with the
@@ -224,64 +216,140 @@
     \field{urlyear}{2022}
   \endentry
 
-  \entry{khoo_physiological_2018}{book}{}
+  \entry{ball_modes_2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BL}{%
+         family={Ball},
+         familyi={B\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dameri},
+         familyi={D\bibinitperiod},
+         given={Maddalena},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Pelosi},
+         familyi={P\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BLDMPP1}
+    \strng{fullhash}{BLDMPP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.bpa.2015.08.003
+    \endverb
+    \field{issn}{15216896}
+    \field{number}{3}
+    \field{pages}{285\bibrangedash 299}
+    \field{title}{Modes of mechanical ventilation for the operating room}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S1521689615000543
+    \endverb
+    \field{volume}{29}
+    \verb{file}
+    \verb Ball et al_2015_Modes of mechanical ventilation for the operating roo
+    \verb m.pdf:C\:\\Users\\bigba\\Zotero\\storage\\G85Y8XE2\\Ball et al_2015_M
+    \verb odes of mechanical ventilation for the operating room.pdf:application
+    \verb /pdf;Ball et al. - 2015 - Modes of mechanical ventilation for the ope
+    \verb rating .pdf:C\:\\Users\\bigba\\Zotero\\storage\\X2KRNCDY\\Ball et al.
+    \verb  - 2015 - Modes of mechanical ventilation for the operating .pdf:appl
+    \verb ication/pdf;Modes of mechanical ventilation for the operating room:C\
+    \verb :\\Users\\bigba\\Zotero\\storage\\77C7YLFW\\ball2015.pdf.pdf:applicat
+    \verb ion/pdf
+    \endverb
+    \field{journaltitle}{Best Practice \& Research Clinical Anaesthesiology}
+    \field{month}{09}
+    \field{year}{2015}
+    \field{urlday}{22}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{article}{article}{}
     \name{author}{1}{}{%
-      {{hash=KMCK}{%
-         family={Khoo},
-         familyi={K\bibinitperiod},
-         given={Michael C.\bibnamedelima K.},
-         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  K\bibinitperiod},
+      {{hash=HD}{%
+         family={Hess},
+         familyi={H\bibinitperiod},
+         given={Dean},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HD1}
+    \strng{fullhash}{HD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{166\bibrangedash 86; discussion 183}
+    \field{title}{Ventilator waveforms and the physiology of pressure support
+  ventilation}
+    \field{volume}{50}
+    \field{journaltitle}{Respiratory care}
+    \field{month}{03}
+    \field{year}{2005}
+  \endentry
+
+  \entry{truwit_modes_2011}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=HRD}{%
+         family={Hite},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima Duncan},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=TJD}{%
+         family={Truwit},
+         familyi={T\bibinitperiod},
+         given={Jonathon\bibnamedelima D.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ESK}{%
+         family={Epstein},
+         familyi={E\bibinitperiod},
+         given={Scott\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
       }}%
     }
     \list{language}{1}{%
       {en}%
     }
     \list{publisher}{1}{%
-      {IEEE Press ; Wiley}%
+      {Wiley}%
     }
-    \keyw{Biological control systems, Mathematical models, Physiology}
-    \strng{namehash}{KMCK1}
-    \strng{fullhash}{KMCK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{edition}{Second editon}
-    \field{isbn}{978-1-119-05533-4}
-    \field{series}{{IEEE} {Press} series in biomedical engineering}
-    \field{shorttitle}{Physiological control systems}
-    \field{title}{Physiological control systems: analysis, simulation, and
-  estimation}
-    \list{location}{1}{%
-      {Piscataway, NJ : Hoboken, New Jersey}%
-    }
-    \verb{file}
-    \verb Khoo - 2018 - Physiological control systems analysis, simulatio.pdf:C
-    \verb \:\\Users\\bigba\\Zotero\\storage\\6PG5WU26\\Khoo - 2018 - Physiologi
-    \verb cal control systems analysis, simulatio.pdf:application/pdf
-    \endverb
-    \field{year}{2018}
-  \endentry
-
-  \entry{simulink}{article}{}
-    \name{author}{1}{}{%
-      {{hash=M}{%
-         family={MathWorks},
-         familyi={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{M1}
-    \strng{fullhash}{M1}
+    \strng{namehash}{HRD1}
+    \strng{fullhash}{HRD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{title}{Simulink}
-    \verb{url}
-    \verb https://it.mathworks.com/products/simulink.html
+    \field{booktitle}{A {Practical} {Guide} to {Mechanical} {Ventilation}}
+    \verb{doi}
+    \verb 10.1002/9780470976609.ch12
     \endverb
-    \field{year}{2022}
+    \field{edition}{1}
+    \field{isbn}{978-0-470-05807-7 978-0-470-97660-9}
+    \field{pages}{141\bibrangedash 162}
+    \field{title}{Modes of {Mechanical} {Ventilation}}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/10.1002/9780470976609.ch12
+    \endverb
+    \verb{file}
+    \verb Hite - 2011 - Modes of Mechanical Ventilation.pdf:C\:\\Users\\bigba\\
+    \verb Zotero\\storage\\DM3CBVBM\\Hite - 2011 - Modes of Mechanical Ventilat
+    \verb ion.pdf:application/pdf
+    \endverb
+    \field{month}{04}
+    \field{year}{2011}
+    \field{urlday}{22}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
   \endentry
 \enddatalist
 \endinput
