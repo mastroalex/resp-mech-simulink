@@ -351,5 +351,66 @@
     \field{urlmonth}{05}
     \field{urlyear}{2022}
   \endentry
+
+  \entry{milic-emili_basics_1999}{book}{}
+    \name{editor}{4}{}{%
+      {{hash=MEJ}{%
+         family={Milic-Emili},
+         familyi={M\bibinithyphendelim E\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LU}{%
+         family={Lucangelo},
+         familyi={L\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pesenti},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZWA}{%
+         family={Zin},
+         familyi={Z\bibinitperiod},
+         given={W.\bibnamedelima A.},
+         giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {Springer Milan}%
+    }
+    \strng{namehash}{MEJ+1}
+    \strng{fullhash}{MEJLUPAZWA1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/978-88-470-2273-7
+    \endverb
+    \field{isbn}{978-88-470-0046-9 978-88-470-2273-7}
+    \field{title}{Basics of {Respiratory} {Mechanics} and {Artificial}
+  {Ventilation}}
+    \verb{url}
+    \verb http://link.springer.com/10.1007/978-88-470-2273-7
+    \endverb
+    \list{location}{1}{%
+      {Milano}%
+    }
+    \verb{file}
+    \verb Milic-Emili et al. - 1999 - Basics of Respiratory Mechanics and Artif
+    \verb icial Ven.pdf:C\:\\Users\\bigba\\Zotero\\storage\\ANNSR5EI\\Milic-Emi
+    \verb li et al. - 1999 - Basics of Respiratory Mechanics and Artificial Ven
+    \verb .pdf:application/pdf
+    \endverb
+    \field{year}{1999}
+    \field{urlday}{26}
+    \field{urlmonth}{03}
+    \field{urlyear}{2022}
+  \endentry
 \enddatalist
 \endinput
