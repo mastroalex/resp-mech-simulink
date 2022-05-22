@@ -17,6 +17,213 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{al-naggar_modelling_2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ANNQ}{%
+         family={Al-Naggar},
+         familyi={A\bibinithyphendelim N\bibinitperiod},
+         given={Noman\bibnamedelima Q.},
+         giveni={N\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{ANNQ1}
+    \strng{fullhash}{ANNQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    A mathematical model of mechanical ventilator describes its behavior during
+  artificial ventilation. This paper purposes to create and simulate
+  Mathematical Model (MM) of Pressure Controlled Ventilator (PCV) signal. This
+  MM represents the respiratory activities and an important controlled
+  parameter during mechanical ventilation—Positive End Expiration Pressure
+  (PEEP). The MM is expressed and modelled using periodic functions with
+  inequalities to control the beginning of inspiration and expiration
+  durations. The created MM of PCV signal is combined with an existing multi
+  compartmental model of respiratory system that is modified and developed in
+  the internal parameters—compliances (C) to test created MM. The created MM
+  and model of respiratory system are constructed and simulated using Simulink
+  package in MATLAB platform. The obtained simulator of mechnical ventilation
+  system could potentially represent the pressure signal of PVC as a complete
+  respiratory cycle and continuance waveform. This simulator is also able to
+  reflect a respiratory mechanic by changing some input variables such as
+  inspiration pressure (IP), PEEP and C, which are monitored in volume, flow,
+  pressure and PV loop waveforms. The obtained simulator has provided a simple
+  environment for testing and monitoring PCV signal and other parameters
+  (volume, flow and dynamic compliance) during artificial ventilation.
+  Furthermore, the simulator may be used for studying in the laboratory and
+  training ventilator’s operators.%
+    }
+    \verb{doi}
+    \verb 10.4236/jbise.2015.810068
+    \endverb
+    \field{issn}{1937-6871, 1937-688X}
+    \field{number}{10}
+    \field{pages}{707\bibrangedash 716}
+    \field{title}{Modelling and {Simulation} of {Pressure} {Controlled}
+  {Mechanical} {Ventilation} {System}}
+    \verb{url}
+    \verb http://www.scirp.org/journal/doi.aspx?DOI=10.4236/jbise.2015.810068
+    \endverb
+    \field{volume}{08}
+    \verb{file}
+    \verb Al-Naggar - 2015 - Modelling and Simulation of Pressure Controlled Me
+    \verb .pdf:C\:\\Users\\bigba\\Zotero\\storage\\ID5AHZJJ\\Al-Naggar - 2015 -
+    \verb  Modelling and Simulation of Pressure Controlled Me.pdf:application/p
+    \verb df;al-naggarModellingSimulationPressure2015-zotero.md:C\:\\Users\\big
+    \verb ba\\iCloudDrive\\iCloud~md~obsidian\\Alessandro\\Literature extra\\al
+    \verb -naggarModellingSimulationPressure2015-zotero.md:text/plain;al-naggar
+    \verb ModellingSimulationPressure2015-zotero.md:C\:\\Users\\bigba\\iCloudDr
+    \verb ive\\iCloud~md~obsidian\\Alessandro\\Literature extra\\al-naggarModel
+    \verb lingSimulationPressure2015-zotero.md:text/plain;al-naggarModellingSim
+    \verb ulationPressure2015.md:C\:\\Users\\bigba\\iCloudDrive\\iCloud~md~obsi
+    \verb dian\\Alessandro\\Literature extra\\al-naggarModellingSimulationPress
+    \verb ure2015.md:text/plain;undefined-zotero.md:/Users/alessandromastrofini
+    \verb /Library/Mobile Documents/iCloud~md~obsidian/Documents/Alessandro/Lit
+    \verb erature extra/undefined-zotero.md:text/plain
+    \endverb
+    \field{journaltitle}{Journal of Biomedical Science and Engineering}
+    \field{year}{2015}
+    \field{urlday}{17}
+    \field{urlmonth}{03}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{ball_modes_2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BL}{%
+         family={Ball},
+         familyi={B\bibinitperiod},
+         given={Lorenzo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dameri},
+         familyi={D\bibinitperiod},
+         given={Maddalena},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PP}{%
+         family={Pelosi},
+         familyi={P\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BLDMPP1}
+    \strng{fullhash}{BLDMPP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1016/j.bpa.2015.08.003
+    \endverb
+    \field{issn}{15216896}
+    \field{number}{3}
+    \field{pages}{285\bibrangedash 299}
+    \field{title}{Modes of mechanical ventilation for the operating room}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S1521689615000543
+    \endverb
+    \field{volume}{29}
+    \verb{file}
+    \verb Ball et al_2015_Modes of mechanical ventilation for the operating roo
+    \verb m.pdf:C\:\\Users\\bigba\\Zotero\\storage\\G85Y8XE2\\Ball et al_2015_M
+    \verb odes of mechanical ventilation for the operating room.pdf:application
+    \verb /pdf;Ball et al. - 2015 - Modes of mechanical ventilation for the ope
+    \verb rating .pdf:C\:\\Users\\bigba\\Zotero\\storage\\X2KRNCDY\\Ball et al.
+    \verb  - 2015 - Modes of mechanical ventilation for the operating .pdf:appl
+    \verb ication/pdf;Modes of mechanical ventilation for the operating room:C\
+    \verb :\\Users\\bigba\\Zotero\\storage\\77C7YLFW\\ball2015.pdf.pdf:applicat
+    \verb ion/pdf
+    \endverb
+    \field{journaltitle}{Best Practice \& Research Clinical Anaesthesiology}
+    \field{month}{09}
+    \field{year}{2015}
+    \field{urlday}{22}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{grossbach_overview_2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GI}{%
+         family={Grossbach},
+         familyi={G\bibinitperiod},
+         given={Irene},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chlan},
+         familyi={C\bibinitperiod},
+         given={Linda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=TMF}{%
+         family={Tracy},
+         familyi={T\bibinitperiod},
+         given={Mary\bibnamedelima Fran},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{GICLTMF1}
+    \strng{fullhash}{GICLTMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Nurses must be knowledgeable about the function and limitations of
+  ventilator modes, causes of respiratory distress and dyssynchrony with the
+  ventilator, and appropriate management in order to provide high-quality
+  patient-centered care. Prompt recognition of problems and action by the nurse
+  may resolve acute respiratory distress, dyspnea, and increased work of
+  breathing and prevent adverse events. This article presents an overview of
+  mechanical ventilation modes and the assessment and management of dyspnea and
+  patient-ventilator dyssynchrony. Strategies to manage patients’ responses
+  to mechanical ventilatory support and recommendations for staff education
+  also are presented.%
+    }
+    \verb{doi}
+    \verb 10.4037/ccn2011595
+    \endverb
+    \field{issn}{0279-5442, 1940-8250}
+    \field{number}{3}
+    \field{pages}{30\bibrangedash 44}
+    \field{title}{Overview of {Mechanical} {Ventilatory} {Support} and
+  {Management} of {Patient}- and {Ventilator}-{Related} {Responses}}
+    \verb{url}
+    \verb https://aacnjournals.org/ccnonline/article/31/3/30/20282/Overview-of-
+    \verb Mechanical-Ventilatory-Support-and
+    \endverb
+    \field{volume}{31}
+    \verb{file}
+    \verb Grossbach et al. - 2011 - Overview of Mechanical Ventilatory Support
+    \verb and Man.pdf:C\:\\Users\\bigba\\Zotero\\storage\\SEIZAJ45\\Grossbach e
+    \verb t al. - 2011 - Overview of Mechanical Ventilatory Support and Man.pdf
+    \verb :application/pdf;Overview of Mechanical Ventilatory Support and Manag
+    \verb ement of Patient- and Ventilator-Related Responses:C\:\\Users\\bigba\
+    \verb \Zotero\\storage\\Z5C8UMGN\\grossbach2011.pdf.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Critical Care Nurse}
+    \field{month}{06}
+    \field{year}{2011}
+    \field{urlday}{22}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{khoo_physiological_2018}{book}{}
     \name{author}{1}{}{%
       {{hash=KMCK}{%

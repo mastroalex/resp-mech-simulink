@@ -221,25 +221,91 @@ Una forma d'onda alternativa è l'onda quadra. Si può impostare una forma d'ond
 	\label{fig:square_wave_45}
 \end{figure*}
 
-\textcolor{red}{COMMENTA}
+Si osserva come il flusso torna rapidamente a zero e inizia una fase di plateau del volume. Successivamente inizia la fase inspiratoria dove il flusso presenta una curva simmetrica ma negativa con un picco della stessa ampiezza e il volume esce gradualmente. 
 
-\textcolor{red}{INSERISCI IL FATTO CHE VARIANDO LA FREQUENZA IL VOLUME NON CAMBIA}
+Inoltre, variando la frequenza il comportamento della curve di flusso e di volume non cambia ma si riduce la fase di plateau del volume. 
+\\
 
-\textcolor{red}{VENTILAZIONE SQUARE WAVE}
+Chiaramente tale forme d'onda sono modelli analitici che nell'applicazione reale presenterebbero diversi problemi. Nella pratica clinica non si utilizzano mai pressioni negative ma si mantiene sempre un gradiente di pressione positivo per cui tali curve sono da escludere per casi applicativi realistici. Si osservi anche come la stessa presenza di un volume negativo, nella forma d'onda sinusoidale, non è desiderabile per un ventilatore il cui scopo è aiutare il paziente a respirare riducendo il lavoro respiratorio del polmone o sostituendolo completamente.
 
 \subsection{Ventilazione a controllo di pressione}
 
-Le analisi precedente sono utili per giudicare il modello matematico è per avere un'idea di base sulla meccanica respiratoria. Tuttavia, in clinica, l'approccio alla ventilazione è leggermente differente.
+Le analisi precedente sono utili per capire il modello matematico e per avere un'idea di base sulla meccanica respiratoria. Tuttavia, in clinica, l'approccio alla ventilazione è leggermente differente. 
 
-\textcolor{red}{BREVE DIFFERENZA TRA CONTROLLO VOLUME E PRESSIONE}
+Al fine di realizzare un simulatore digitale di un ventilatore polmonare si considera una forma d'onda tipicamente diffusa in clinica per la ventilazione a controllo di pressione \cite{al-naggar_modelling_2015}. 
 
-\textcolor{red}{DESCRIVI CONTROLLO DI PRESSIONE CON CURVA CON RAISE TIME PRECISA}
+La ventilazione polmonare assistita si divide in due macro categorie: controllo di volume e controllo di pressione. Sono presenti diversi vantaggi/svantaggi in entrambe e la scelta si basa su diverse considerazioni paziente specifiche. Nella ventilazione a controllo di pressione (VCP) si imposta un target specifico, la pressione alle vie aeree $P_{aO}$ e il ventilatore deve mantenerla. A seconda del macchinario utilizzato possono essere variati alcuni parametri quali la percentuale di ossigeno, il volume tidale o la ventilazione per minuto, la frequenza respiratoria, il tempo inspiratorio, il flusso o settare dei valori limite per la pressione \cite{grossbach_overview_2011}.
+
+Una curva generica, tipica della VCP, è costituita da un'onda quadra con un offset positivo che prende il nome di PEEP, positive end-expiratory pressure. Il periodo $T=\frac{1}{\text{freq. respiratoria}}$ è composto da un tempo di inspirazione e un tempo inspirazione. Facoltativamente può essere presente un certo tempo di salita, espresso in funzione del tempo di inspirazione \cite{al-naggar_modelling_2015}. 
+
+Questo può essere espresso come una curva lineare a tratti (\cref{fig:PCV}) di periodo $T=T_{insp}+T_{esp}$:
+
+\begin{equation}
+	\small{
+	P(t)=\left\{\begin{array}{c}
+		P_{aO} \cdot \frac{t}{\tau}+\mathrm{PEEP} \\
+		P_{aO}+\mathrm{PEEP} \\
+		\mathrm{PEEP}
+	\end{array}\right.\quad \begin{aligned}
+		&0 \leq t < \tau \\
+		&\tau \leq t < T_{insp} \\
+		&T_{insp} \leq t 
+	\end{aligned}}
+\end{equation}
+
+ \begin{figure*}[t!]
+	\begin{subfigure}[b]{0.5\linewidth}
+		\centering
+		\footnotesize{
+			\def\svgwidth{\linewidth}
+			\input{PCV_VCV.pdf_tex}}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}[b]{0.5\linewidth}
+		\centering
+		\footnotesize{
+			\def\svgwidth{\linewidth}
+			\input{PCV.pdf_tex}}
+		\caption{}
+		\label{fig:PCV}
+	\end{subfigure}
+	\caption{Differenza tra le curve ottenute in ventilazione a controllo di pressione (VCV) e a controllo di pressione (PCV) (a); generica forma d'onda per la ventilazione a controllo di pressione (b)}
+	\label{fig:clinical}
+\end{figure*}
+
+La PEEP generalmente si mantiene tra $5\div 10$ cmH\textsubscript{2}O mantenendo il volume nel range di $4\div 6$ ml/kg di peso corporeo. La $P_{aO}$ viene mantenuta sotto i 35 cm H\textsubscript{2}O \cite{ball_modes_2015}.
+
+A tal proposito viene anche modificata l'interfaccia grafica (\cref{fig:mask}) in moto tale da permette la selezione di una forma d'onda di tipo onda quadra con un rise time e un offset di pressione, lasciando all'utente la possibilità di scegliere frequenza, tempo di inspirazione (in funzione del periodo), rise time (in funzione del tempo di inspirazione), $P_{aO}$ e $\mathrm{PEEP}$. 
+ 
+
+
+Una volta impostato tale simulatore permette di calibrare la ventilazione e di addestrarsi nell'utilizzo di un ventilatore reale andando a vedere come i diversi parametri di ventilazione influenzano la meccanica respiratoria e soprattutto come modificare la ventilazione in base alla risposta del paziente.
+\\
+
+Nelle sezioni successive vengono fissati i parametri di ventilazione ad una frequenza di 18 respiri/min, un tempo di inspirazione del 40\% e un rise time del 20\%, con una $\mathrm{PEEP}$ di 5 cm H\textsubscript{2}O e una $P_{aO}=25$  cm H\textsubscript{2}O, e si analizza come varia la ventilazione in funzione della variazione dei parametri del paziente. 
+
+ \begin{figure*}[t!]
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+\includegraphics[width=0.95\linewidth]{../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+\includegraphics[width=0.95\linewidth]{../model/data_log/PV_rise_time.pdf}
+		\caption{}
+	\end{subfigure}
+	\caption{PCV con $T_{insp}=0.4*T$, $f=$18 respiri/min, $\tau=0.15*T_{insp}$, $\mathrm{PEEP}=5$ cm H\textsubscript{2}O e $P_{aO}=25$ cm H\textsubscript{2}O (a); diagramma PV di confronto con differenti tempi di salita, si osserva come varia il primo ramo di salita del volume, riducendo il rise time l'incremento di volume diventa sempre più brusco ma il volume massimo raggiunto è sempre lo stesso}
+	\label{fig:rise_time}
+\end{figure*}
 
 \subsection{Resistenza delle vie aeree}
 
 \textcolor{blue}{
 	\lipsum[1-4]
 }
+
+\subsection{Compliance polmonare}
 \section{Conclusioni}
 
 \textcolor{blue}{
