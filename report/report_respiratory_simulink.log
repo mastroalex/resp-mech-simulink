@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  23 MAY 2022 08:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  23 MAY 2022 09:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1868,12 +1868,12 @@ pdf>
 Package pdftex.def Info: ../model/data_log/data_square_wave_rise_15_Tinsp_40_PE
 EP_5_Paw_25_freq_18.pdf  used on input line 304.
 (pdftex.def)             Requested size: 235.75613pt x 180.84961pt.
-<../model/data_log/PV_rise_time.pdf, id=250, 356.33125pt x 309.155pt>
+<../model/data_log/PV_rise_time.pdf, id=250, 365.365pt x 306.14375pt>
 File: ../model/data_log/PV_rise_time.pdf Graphic file (type pdf)
 <use ../model/data_log/PV_rise_time.pdf>
 Package pdftex.def Info: ../model/data_log/PV_rise_time.pdf  used on input line
  309.
-(pdftex.def)             Requested size: 235.75613pt x 204.54295pt.
+(pdftex.def)             Requested size: 235.75613pt x 197.54294pt.
 
 Underfull \vbox (badness 1215) has occurred while \output is active []
 
@@ -1903,6 +1903,9 @@ pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
 pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
+Underfull \vbox (badness 1226) has occurred while \output is active []
+
+
 Underfull \hbox (badness 4569) in paragraph at lines 338--339
 []\T1/stix/m/n/12 Nel caso di edema polomonare car-dio-geno
  []
@@ -2017,7 +2020,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-<figures//GUI.png, id=385, 389.95688pt x 716.6775pt>
+<figures//GUI.png, id=387, 389.95688pt x 716.6775pt>
 File: figures//GUI.png Graphic file (type png)
 <use figures//GUI.png>
 Package pdftex.def Info: figures//GUI.png  used on input line 376.
@@ -2063,10 +2066,10 @@ live/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/t
 exmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/f
 onts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
 public/stix/stix-mathscr.pfb>
-Output written on report_respiratory_simulink.pdf (11 pages, 1643408 bytes).
+Output written on report_respiratory_simulink.pdf (11 pages, 1643684 bytes).
 PDF statistics:
- 443 PDF objects out of 1000 (max. 8388607)
- 326 compressed objects within 4 object streams
+ 445 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -64,6 +64,6 @@ title('Pressure vs volume')
 grid on
 box off
 legend({'\tau = 0.3 * T_{insp}','\tau = 0.1 * T_{insp}','\tau = 0'},'Location','north')
-
+xlim([0;30])
 %% 
 %exportgraphics(figure(7),'data_log/data_sine_wave_freq_15_zoom.pdf','BackgroundColor','none','ContentType','vector');
