@@ -17,6 +17,142 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{ghafarian_review_nodate}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GP}{%
+         family={Ghafarian},
+         familyi={G\bibinitperiod},
+         given={Pardis},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jamaati},
+         familyi={J\bibinitperiod},
+         given={Hamidreza},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HSM}{%
+         family={Hashemian},
+         familyi={H\bibinitperiod},
+         given={Seyed\bibnamedelima Mohammadreza},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{GPJHHSM1}
+    \strng{fullhash}{GPJHHSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Input impedance of the respiratory system is measured by forced oscillation
+  technique (FOT). Multiple prior studies have attempted to match the
+  electromechanical models of the respiratory system to impedance data. Since
+  the mechanical behavior of airways and the respiratory system as a whole are
+  similar to an electrical circuit in a combination of series and parallel
+  formats some theories were introduced according to this issue. It should be
+  noted that, the number of elements used in these models might be less than
+  those required due to the complexity of the pulmonary-chest wall anatomy.
+  Various respiratory models have been proposed based on this idea in order to
+  demonstrate and assess the different parts of respiratory system related to
+  children and adults data. With regard to our knowledge, some of famous
+  respiratory models in related to obstructive, restrictive diseases and also
+  Acute Respiratory Distress Syndrome (ARDS) are reviewed in this article.%
+    }
+    \field{pages}{9}
+    \field{title}{A {Review} on {Human} {Respiratory} {Modeling}}
+    \verb{file}
+    \verb Ghafarian et al. - A Review on Human Respiratory Modeling.pdf:C\:\\Us
+    \verb ers\\bigba\\Zotero\\storage\\8QWVWAFS\\Ghafarian et al. - A Review on
+    \verb  Human Respiratory Modeling.pdf:application/pdf
+    \endverb
+  \endentry
+
+  \entry{hamahata_go_2020}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HN}{%
+         family={Hamahata},
+         familyi={H\bibinitperiod},
+         given={Natsumi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sato},
+         familyi={S\bibinitperiod},
+         given={Ryota},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Daoud},
+         familyi={D\bibinitperiod},
+         given={Ehab},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{HNSRDE1}
+    \strng{fullhash}{HNSRDE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{abstract}{%
+    Most clinicians pay attention to tidal volume and airway pressures and
+  their curves during mechanical ventilation. On the other hand,
+  inspiratory–expiratory flow curves also provide a plethora of information,
+  but much less attention is paid to them. Flow curves chronologically show the
+  velocity and direction of inspiration and expiration and are influenced by
+  the respiratory mechanics, the patient’s effort, and the mode of
+  ventilation and its settings. When the ventilator setting does not
+  synchronize with the patient’s respiratory pattern, the patient can easily
+  have worsening breathing effort, patient–ventilator asynchrony, which can
+  lead to prolonged ventilator support or lung injury. The information provided
+  by the flow curves during mechanical ventilation, such as respiratory
+  mechanics, the patient’s effort, and patient–ventilator interactions, are
+  very helpful when adjusting the ventilator setting. If clinicians can monitor
+  and assess the flow curves information appropriately, it can be a useful
+  diagnostic and therapeutic tool at the bedside. There may be association
+  between inspiratory effort and flow, and this may further guide us,
+  especially in the weaning process and when patients are not synchronizing
+  with the ventilator. In this review, we try to gather information about
+  “flow” that is scattered around in the literature and textbooks in one
+  place. We will summarize the different flow waveforms utilized in commonly
+  used ventilator modes with their advantages and disadvantages, information
+  gained by the flow curves (i.e., flow-time, flow-volume, and flow-pressure),
+  how to detect and manage asynchronies, and some ideas for future uses. Flow
+  waveforms shapes and patterns are very beneficial for the management of
+  patients undergoing mechanical ventilatory support. Attention to those
+  waveforms can potentially improve patient outcomes. Clinicians should be
+  familiar with this information and how to act upon them.%
+    }
+    \verb{doi}
+    \verb 10.29390/cjrt-2020-002
+    \endverb
+    \field{issn}{23686820}
+    \field{pages}{11\bibrangedash 20}
+    \field{shorttitle}{Go with the flow—clinical importance of flow curves
+  during mechanical ventilation}
+    \field{title}{Go with the flow—clinical importance of flow curves during
+  mechanical ventilation: {A} narrative review}
+    \verb{url}
+    \verb https://www.cjrt.ca/wp-content/uploads/cjrt-2020-002.pdf
+    \endverb
+    \field{volume}{56}
+    \verb{file}
+    \verb Hamahata et al. - 2020 - Go with the flow—clinical importance of fl
+    \verb ow curve.pdf:C\:\\Users\\bigba\\Zotero\\storage\\9X6DVZHB\\Hamahata e
+    \verb t al. - 2020 - Go with the flow—clinical importance of flow curve.p
+    \verb df:application/pdf
+    \endverb
+    \field{journaltitle}{Canadian Journal of Respiratory Therapy}
+    \field{month}{07}
+    \field{year}{2020}
+    \field{urlday}{22}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{khoo_physiological_2018}{book}{}
     \name{author}{1}{}{%
       {{hash=KMCK}{%

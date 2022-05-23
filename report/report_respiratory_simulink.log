@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  22 MAY 2022 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  23 MAY 2022 08:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1468,11 +1468,52 @@ Package biblatex Info: ... file 'report_respiratory_simulink.bbl' found.
 Package biblatex Info: Reference section=0 on input line 150.
 Package biblatex Info: Reference segment=0 on input line 150.
  (./testo.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 2435) in paragraph at lines 3--4
+[]\T1/stix/m/n/12 La va-l-u-tazione del sisitema res-pi-ra-to-rio con
+ []
 
+
+Underfull \hbox (badness 5388) in paragraph at lines 5--6
+\T1/stix/m/n/12 monare di-versi con-tributi in-erziali ed elas-tici
+ []
+
+
+Underfull \vbox (badness 1077) has occurred while \output is active []
+
+<figures//logo.png, id=4, 336.384pt x 337.698pt>
+File: figures//logo.png Graphic file (type png)
+<use figures//logo.png>
+Package pdftex.def Info: figures//logo.png  used on input line 17.
+(pdftex.def)             Requested size: 44.82474pt x 45.0pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 52.54129pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.54129pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-40.54129pt}.
+
+[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./figures//logo.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
+3.
+ (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 1062) in paragraph at lines 23--24
+\T1/stix/m/n/12 in-sieme a dif-fer-enti forme d'onda di pres-sione.
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 23--24
+\T1/stix/m/n/12 Suc-ces-si-va-mente viene af-frontata an-che la de-
+ []
 
 (./figures//circuit.pdf_tex
-<figures//circuit.pdf, id=4, page=1, 267.25665pt x 160.4597pt>
+<figures//circuit.pdf, id=14, page=1, 267.25665pt x 160.4597pt>
 File: figures//circuit.pdf Graphic file (type pdf)
 <use figures//circuit.pdf, page 1>
 Package pdftex.def Info: figures//circuit.pdf , page1 used on input line 56.
@@ -1524,70 +1565,51 @@ e 57.
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-<figures//circuit.pdf, id=5, page=2, 267.25665pt x 160.4597pt>
+<figures//circuit.pdf, id=15, page=2, 267.25665pt x 160.4597pt>
 File: figures//circuit.pdf Graphic file (type pdf)
 <use figures//circuit.pdf, page 2>
 Package pdftex.def Info: figures//circuit.pdf , page2 used on input line 67.
 (pdftex.def)             Requested size: 248.16516pt x 148.99826pt.
 )
 (./figures//lung.pdf_tex
-<figures//lung.pdf, id=6, page=1, 305.30646pt x 355.03726pt>
+<figures//lung.pdf, id=16, page=1, 305.30646pt x 355.03726pt>
 File: figures//lung.pdf Graphic file (type pdf)
 <use figures//lung.pdf, page 1>
 Package pdftex.def Info: figures//lung.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 173.71484pt x 202.01578pt.
 )
-Underfull \hbox (badness 1077) in paragraph at lines 34--35
+Underfull \hbox (badness 1077) in paragraph at lines 48--49
 []\T1/stix/m/n/12 Il cir-cuito pol-monare può es-sere anal-iz-zando
  []
 
-<figures//logo.png, id=7, 336.384pt x 337.698pt>
-File: figures//logo.png Graphic file (type png)
-<use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 38.
-(pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 52.54129pt, for example:
-(fancyhdr)                \setlength{\headheight}{52.54129pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-40.54129pt}.
-
-[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./figures//logo.png>]
-Underfull \hbox (badness 2134) in paragraph at lines 44--45
+Underfull \hbox (badness 2134) in paragraph at lines 58--59
 []\T1/stix/m/n/12 Si iden-ti-f-i-cano al-lora an-che le pres-sioni nei
  []
 
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 53
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 67
 .
 
-LaTeX Font Info:    Calculating math sizes for size <> on input line 59.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 73.
 
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 64
+LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 78
 .
 
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 72.
+(amsmath)                 on input line 86.
 
 <figures//simulink_base.pdf, id=17, 775.26338pt x 130.39516pt>
 File: figures//simulink_base.pdf Graphic file (type pdf)
 <use figures//simulink_base.pdf>
-Package pdftex.def Info: figures//simulink_base.pdf  used on input line 77.
+Package pdftex.def Info: figures//simulink_base.pdf  used on input line 91.
 (pdftex.def)             Requested size: 496.33032pt x 83.48047pt.
 
-Underfull \hbox (badness 5431) in paragraph at lines 85--86
+Underfull \hbox (badness 5431) in paragraph at lines 99--100
 []\T1/stix/m/n/12 Chiaramente la soluzione di tale prob-lema
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1597,7 +1619,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2 <./figures//circuit.pdf> <./figures//circuit.pdf
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+[]\T1/stix/m/n/12 Esiste tut-tavia la pos-si-bil-ità di uti-liz-zare
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 130--131
+[]\T1/stix/m/n/12 Inoltre, tale am-bi-ente per-me-tte l'integrazione
+ []
+
+<figures//simulink_ventilator.pdf, id=26, 423.13582pt x 161.60374pt>
+File: figures//simulink_ventilator.pdf Graphic file (type pdf)
+<use figures//simulink_ventilator.pdf>
+Package pdftex.def Info: figures//simulink_ventilator.pdf  used on input line 1
+46.
+(pdftex.def)             Requested size: 198.5291pt x 75.82307pt.
+<figures//simulink_ventilator_GUI.png, id=27, 392.96812pt x 794.2172pt>
+File: figures//simulink_ventilator_GUI.png Graphic file (type png)
+<use figures//simulink_ventilator_GUI.png>
+Package pdftex.def Info: figures//simulink_ventilator_GUI.png  used on input li
+ne 151.
+(pdftex.def)             Requested size: 392.96715pt x 794.21526pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <./figures//circuit.pdf> <./figures//circuit.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//circuit.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
@@ -1605,84 +1657,49 @@ iple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures//lung.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
+> <./figures//simulink_base.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//simulink_base.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-[]\T1/stix/m/n/12 Esiste tut-tavia la pos-si-bil-ità di uti-liz-zare
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 116--117
-[]\T1/stix/m/n/12 Inoltre, tale am-bi-ente per-me-tte l'integrazione
- []
-
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-20.
-(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-<figures//simulink_ventilator.pdf, id=28, 423.13582pt x 161.60374pt>
-File: figures//simulink_ventilator.pdf Graphic file (type pdf)
-<use figures//simulink_ventilator.pdf>
-Package pdftex.def Info: figures//simulink_ventilator.pdf  used on input line 1
-32.
-(pdftex.def)             Requested size: 198.5291pt x 75.82307pt.
-<figures//simulink_ventilator_GUI.png, id=29, 392.96812pt x 794.2172pt>
-File: figures//simulink_ventilator_GUI.png Graphic file (type png)
-<use figures//simulink_ventilator_GUI.png>
-Package pdftex.def Info: figures//simulink_ventilator_GUI.png  used on input li
-ne 137.
-(pdftex.def)             Requested size: 392.96715pt x 794.21526pt.
-<figures//simulink_lung.pdf, id=30, 794.97pt x 297.03673pt>
+<figures//simulink_lung.pdf, id=96, 794.97pt x 297.03673pt>
 File: figures//simulink_lung.pdf Graphic file (type pdf)
 <use figures//simulink_lung.pdf>
-Package pdftex.def Info: figures//simulink_lung.pdf  used on input line 160.
+Package pdftex.def Info: figures//simulink_lung.pdf  used on input line 174.
 (pdftex.def)             Requested size: 496.33032pt x 185.45712pt.
 
-Underfull \hbox (badness 4036) in paragraph at lines 170--171
+Underfull \hbox (badness 4036) in paragraph at lines 184--185
 \T1/stix/m/n/12 per vi-su-al-iz-zare le forme d'onda di-ret-ta-mente
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3 <./figures//simulink_base.pdf>]
-<../model/data_log/data_sine_wave_freq_15.pdf, id=96, 396.48125pt x 304.13625pt
+<../model/data_log/data_sine_wave_freq_15.pdf, id=97, 396.48125pt x 304.13625pt
 >
 File: ../model/data_log/data_sine_wave_freq_15.pdf Graphic file (type pdf)
 <use ../model/data_log/data_sine_wave_freq_15.pdf>
 Package pdftex.def Info: ../model/data_log/data_sine_wave_freq_15.pdf  used on 
-input line 184.
+input line 198.
 (pdftex.def)             Requested size: 235.75613pt x 180.84961pt.
-<../model/data_log/data_sine_wave_freq_15_zoom.pdf, id=97, 400.49625pt x 316.18
+<../model/data_log/data_sine_wave_freq_15_zoom.pdf, id=98, 400.49625pt x 316.18
 124pt>
 File: ../model/data_log/data_sine_wave_freq_15_zoom.pdf Graphic file (type pdf)
 
 <use ../model/data_log/data_sine_wave_freq_15_zoom.pdf>
 Package pdftex.def Info: ../model/data_log/data_sine_wave_freq_15_zoom.pdf  use
-d on input line 189.
+d on input line 203.
 (pdftex.def)             Requested size: 235.75613pt x 186.12558pt.
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-192.
-
+206.
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
-<../model/data_log/data_sine_wave_freq_45_zoom.pdf, id=98, 986.68625pt x 462.72
+<../model/data_log/data_sine_wave_freq_45_zoom.pdf, id=99, 986.68625pt x 462.72
 874pt>
 File: ../model/data_log/data_sine_wave_freq_45_zoom.pdf Graphic file (type pdf)
 
 <use ../model/data_log/data_sine_wave_freq_45_zoom.pdf>
 Package pdftex.def Info: ../model/data_log/data_sine_wave_freq_45_zoom.pdf  use
-d on input line 195.
+d on input line 209.
 (pdftex.def)             Requested size: 471.51228pt x 221.12584pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1693,54 +1710,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4 <./figures//simulink_ventilator.pdf> <./figures//simulink_ventilator_GUI.png
- (PNG copy)> <./figures//simulink_lung.pdf>]
-Underfull \hbox (badness 1033) in paragraph at lines 204--206
+ (PNG copy)>]
+Underfull \hbox (badness 1033) in paragraph at lines 218--220
 []\T1/stix/m/n/12 Quindi, men-tre a bassa fre-quenza (ri-poso) il
  []
 
 
-Underfull \hbox (badness 6204) in paragraph at lines 204--206
+Underfull \hbox (badness 6204) in paragraph at lines 218--220
 \T1/stix/m/n/12 ad alta fre-quenza il com-por-ta-mento re-sis-tivo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<../model/data_log/data_square_wave_freq_18.pdf, id=161, 384.43625pt x 303.1325
+<../model/data_log/data_square_wave_freq_18.pdf, id=138, 384.43625pt x 303.1325
 pt>
 File: ../model/data_log/data_square_wave_freq_18.pdf Graphic file (type pdf)
 <use ../model/data_log/data_square_wave_freq_18.pdf>
 Package pdftex.def Info: ../model/data_log/data_square_wave_freq_18.pdf  used o
-n input line 212.
+n input line 226.
 (pdftex.def)             Requested size: 235.75613pt x 185.90039pt.
-<../model/data_log/PV_sine_vs_square.pdf, id=162, 365.365pt x 303.1325pt>
+<../model/data_log/PV_sine_vs_square.pdf, id=139, 365.365pt x 303.1325pt>
 File: ../model/data_log/PV_sine_vs_square.pdf Graphic file (type pdf)
 <use ../model/data_log/PV_sine_vs_square.pdf>
 Package pdftex.def Info: ../model/data_log/PV_sine_vs_square.pdf  used on input
- line 217.
+ line 231.
 (pdftex.def)             Requested size: 235.75613pt x 195.5999pt.
 
-Underfull \hbox (badness 1622) in paragraph at lines 224--225
+Underfull \hbox (badness 1622) in paragraph at lines 238--239
 \T1/stix/m/n/12 ces-si-va-mente in-izia la fase in-spi-ra-to-ria dove il
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--228
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 229--230
+Underfull \hbox (badness 1194) in paragraph at lines 243--244
 []\T1/stix/m/n/12 Chiaramente tale forme d'onda sono mod-elli
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1215) has occurred while \output is active []
 
 
 
@@ -1751,112 +1765,82 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5 <../model/data_log/data_sine_wave_freq_15.pdf> <../model/data_log/data_sine_
-wave_freq_15_zoom.pdf> <../model/data_log/data_sine_wave_freq_45_zoom.pdf>]
+[5 <./figures//simulink_lung.pdf>]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 244.
+LaTeX Font Warning: Command \small invalid in math mode on input line 258.
 
 (./figures//PCV_VCV.pdf_tex
-<figures//PCV_VCV.pdf, id=240, page=1, 368.06905pt x 249.63145pt>
+<figures//PCV_VCV.pdf, id=167, page=1, 368.06905pt x 249.63145pt>
 File: figures//PCV_VCV.pdf Graphic file (type pdf)
 <use figures//PCV_VCV.pdf, page 1>
 Package pdftex.def Info: figures//PCV_VCV.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 248.16516pt x 168.31113pt.
-<figures//PCV_VCV.pdf, id=241, page=2, 368.06905pt x 249.63145pt>
+<figures//PCV_VCV.pdf, id=168, page=2, 368.06905pt x 249.63145pt>
 File: figures//PCV_VCV.pdf Graphic file (type pdf)
 <use figures//PCV_VCV.pdf, page 2>
 Package pdftex.def Info: figures//PCV_VCV.pdf , page2 used on input line 61.
 (pdftex.def)             Requested size: 248.16516pt x 168.31113pt.
 ) (./figures//PCV.pdf_tex
-<figures//PCV.pdf, id=242, page=1, 383.38373pt x 221.71774pt>
+<figures//PCV.pdf, id=169, page=1, 383.38373pt x 221.71774pt>
 File: figures//PCV.pdf Graphic file (type pdf)
 <use figures//PCV.pdf, page 1>
 Package pdftex.def Info: figures//PCV.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 248.16516pt x 143.51938pt.
-<figures//PCV.pdf, id=243, page=2, 383.38373pt x 221.71774pt>
+<figures//PCV.pdf, id=170, page=2, 383.38373pt x 221.71774pt>
 File: figures//PCV.pdf Graphic file (type pdf)
 <use figures//PCV.pdf, page 2>
 Package pdftex.def Info: figures//PCV.pdf , page2 used on input line 58.
 (pdftex.def)             Requested size: 248.16516pt x 143.51938pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 []\T1/stix/m/n/12 A tal propos-ito viene an-che mod-i-fi-cata
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 278--279
+Underfull \hbox (badness 3138) in paragraph at lines 292--293
 \T1/stix/m/n/12 l'interfaccia grafica (fig. 3b) in moto tale da
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 278--279
+Underfull \hbox (badness 2229) in paragraph at lines 292--293
 \T1/stix/m/n/12 per-me-tte la se-lezione di una forma d'onda di
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 278--279
+Underfull \hbox (badness 2103) in paragraph at lines 292--293
 \T1/stix/m/n/12 pres-sione, las-ciando all'utente la pos-si-bil-ità di
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 278--279
+Underfull \hbox (badness 2884) in paragraph at lines 292--293
 \T1/stix/m/n/12 scegliere fre-quenza, tempo di in-spi-razione (in
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[6 <../model/data_log/data_square_wave_freq_18.pdf> <../model/data_log/PV_sine_
-vs_square.pdf>]
-Underfull \hbox (badness 2980) in paragraph at lines 282--284
+Underfull \hbox (badness 2980) in paragraph at lines 296--298
 []\T1/stix/m/n/12 Una volta im-postato tale sim-u-la-tore per-me-
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 282--284
+Underfull \hbox (badness 1400) in paragraph at lines 296--298
 \T1/stix/m/n/12 tte di cal-i-brare la ven-ti-lazione e di ad-de-strarsi
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 282--284
+Underfull \hbox (badness 2285) in paragraph at lines 296--298
 \T1/stix/m/n/12 nell'utilizzo di un ven-ti-la-tore reale an-dando a
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 282--284
+Underfull \hbox (badness 4846) in paragraph at lines 296--298
 \T1/stix/m/n/12 come mod-i-fi-care la ven-ti-lazione in base alla
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
+Underfull \hbox (badness 10000) in paragraph at lines 296--298
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-[]\T1/stix/m/n/12 Nelle sezioni suc-ces-sive ven-gono fis-sati i
- []
-
-<../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.pdf,
- id=300, 396.48125pt x 304.13625pt>
-File: ../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18
-.pdf Graphic file (type pdf)
-<use ../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.
-pdf>
-Package pdftex.def Info: ../model/data_log/data_square_wave_rise_15_Tinsp_40_PE
-EP_5_Paw_25_freq_18.pdf  used on input line 290.
-(pdftex.def)             Requested size: 235.75613pt x 180.84961pt.
-<../model/data_log/PV_rise_time.pdf, id=301, 356.33125pt x 309.155pt>
-File: ../model/data_log/PV_rise_time.pdf Graphic file (type pdf)
-<use ../model/data_log/PV_rise_time.pdf>
-Package pdftex.def Info: ../model/data_log/PV_rise_time.pdf  used on input line
- 295.
-(pdftex.def)             Requested size: 235.75613pt x 204.54295pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1869,7 +1853,44 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7 <./figures//PCV_VCV.pdf> <./figures//PCV_VCV.pdf
+[6 <../model/data_log/data_sine_wave_freq_15.pdf> <../model/data_log/data_sine_
+wave_freq_15_zoom.pdf> <../model/data_log/data_sine_wave_freq_45_zoom.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+[]\T1/stix/m/n/12 Nelle sezioni suc-ces-sive ven-gono fis-sati i
+ []
+
+<../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.pdf,
+ id=249, 396.48125pt x 304.13625pt>
+File: ../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18
+.pdf Graphic file (type pdf)
+<use ../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.
+pdf>
+Package pdftex.def Info: ../model/data_log/data_square_wave_rise_15_Tinsp_40_PE
+EP_5_Paw_25_freq_18.pdf  used on input line 304.
+(pdftex.def)             Requested size: 235.75613pt x 180.84961pt.
+<../model/data_log/PV_rise_time.pdf, id=250, 356.33125pt x 309.155pt>
+File: ../model/data_log/PV_rise_time.pdf Graphic file (type pdf)
+<use ../model/data_log/PV_rise_time.pdf>
+Package pdftex.def Info: ../model/data_log/PV_rise_time.pdf  used on input line
+ 309.
+(pdftex.def)             Requested size: 235.75613pt x 204.54295pt.
+
+Underfull \vbox (badness 1215) has occurred while \output is active []
+
+
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 <../model/data_log/data_square_wave_freq_18.pdf> <../model/data_log/PV_sine_
+vs_square.pdf> <./figures//PCV_VCV.pdf> <./figures//PCV_VCV.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//PCV_VCV.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
@@ -1882,24 +1903,13 @@ pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
 pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 4569) in paragraph at lines 324--325
+Underfull \hbox (badness 4569) in paragraph at lines 338--339
 []\T1/stix/m/n/12 Nel caso di edema polomonare car-dio-geno
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 326--327
+Underfull \hbox (badness 1946) in paragraph at lines 340--341
 \T1/stix/m/n/12 tribuis-cono a ridurre la com-pli-ance pol-monare
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--337
-\T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
-m /
  []
 
 
@@ -1912,46 +1922,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.p
 df> <../model/data_log/PV_rise_time.pdf>]
-Underfull \hbox (badness 1895) in paragraph at lines 343--343
-\T1/stix/m/it/12 sys-tems: anal-y-sis, sim-u-la-tion, and es-ti-ma-
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 343--343
-[]\T1/stix/m/n/12 MathWorks. ``Simulink''. In: (2022). \T1/stix/m/sc/12 url\T1/
-stix/m/n/12 :
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+\T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
+m /
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 343--343
+Underfull \hbox (badness 1939) in paragraph at lines 359--359
+\T1/stix/m/n/12 Daoud. ``Go with the flow^^Vclinical im-
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 359--359
+\T1/stix/m/n/12 por-tance of flow curves dur-ing me-chan-i-
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 359--359
 \T1/stix/m/n/12 u-la-tion of Pres-sure Con-trolled Me-chan-i-
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 343--343
-\T1/stix/m/n/12 Sup-port and Man-age-ment of Patient- and
+Underfull \hbox (badness 2065) in paragraph at lines 359--359
+\T1/stix/m/n/12 cal Ven-ti-la-tion Sys-tem''. en. In: \T1/stix/m/it/12 Jour-nal
+
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 343--343
-\T1/cmtt/m/n/12 4037 / ccn2011595$\T1/stix/m/n/12 . \T1/stix/m/sc/12 url\T1/sti
-x/m/n/12 : $\T1/cmtt/m/n/12 https : / /
+Underfull \hbox (badness 4479) in paragraph at lines 359--359
+\T1/stix/m/it/12 of Biomed-i-cal Sci-ence and En-gi-neer-ing
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 343--343
-\T1/cmtt/m/n/12 31 / 3 / 30 / 20282 / Overview -[] of -[]
+Underfull \hbox (badness 2245) in paragraph at lines 359--359
+\T1/stix/m/n/12 08.10 (2015), pp. 707^^U716. \T1/stix/m/sc/12 issn\T1/stix/m/n/
+12 : 1937-
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 343--343
-\T1/stix/m/it/12 & Re-search Clin-i-cal Anaes-the-si-ol-ogy \T1/stix/m/n/12 29.
-3
+Underfull \hbox (badness 5893) in paragraph at lines 359--359
+\T1/stix/m/it/12 Crit-i-cal Care Nurse \T1/stix/m/n/12 31.3 (June 2011),
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 343--343
-\T1/stix/m/it/12 chan-i-cal Ven-ti-la-tion\T1/stix/m/n/12 . Ed. by Jonathon D.
+Underfull \hbox (badness 1953) in paragraph at lines 359--359
+\T1/stix/m/n/12 pp. 30^^U44. \T1/stix/m/sc/12 issn\T1/stix/m/n/12 : 0279-5442, 
+1940-8250.
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 359--359
+\T1/cmtt/m/n/12 / / aacnjournals . org / ccnonline /
  []
 
 
@@ -1962,13 +1988,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+[9]
+Underfull \hbox (badness 1102) in paragraph at lines 359--359
+\T1/stix/m/it/12 chan-i-cal Ven-ti-la-tion\T1/stix/m/n/12 . Ed. by Jonathon D.
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 359--359
+\T1/stix/m/n/12 en. Mi-lano: Springer Mi-lan, 1999. \T1/stix/m/sc/12 isbn\T1/st
+ix/m/n/12 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\T1/stix/m/n/12 978-88-470-0046-9 978-88-470-2273-7.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10
+
+] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-<figures//GUI.png, id=381, 389.95688pt x 716.6775pt>
+<figures//GUI.png, id=385, 389.95688pt x 716.6775pt>
 File: figures//GUI.png Graphic file (type png)
 <use figures//GUI.png>
-Package pdftex.def Info: figures//GUI.png  used on input line 360.
+Package pdftex.def Info: figures//GUI.png  used on input line 376.
 (pdftex.def)             Requested size: 389.95592pt x 716.67577pt.
 )
 
@@ -1981,7 +2033,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10
+[11
 
 
  <./figures//GUI.png>] (./report_respiratory_simulink.aux)
@@ -1991,16 +2043,16 @@ Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47368 strings out of 478579
- 1075736 string characters out of 5857457
- 1893067 words of memory out of 5000000
- 64535 multiletter control sequences out of 15000+600000
+ 47374 strings out of 478579
+ 1076037 string characters out of 5857457
+ 1898948 words of memory out of 5000000
+ 64541 multiletter control sequences out of 15000+600000
  531653 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,97p,1897b,1875s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
-ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021/texmf-dis
-t/fonts/enc/dvips/stix/stix-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/pub
+ 99i,18n,97p,1897b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021
+/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}{c:/texlive/2021/texmf-dist/fonts
+/enc/dvips/cm-super/cm-super-t1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/pub
 lic/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
 ix/STIXGeneral-BoldItalic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
 ix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/S
@@ -2011,10 +2063,10 @@ live/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/t
 exmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/f
 onts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/
 public/stix/stix-mathscr.pfb>
-Output written on report_respiratory_simulink.pdf (10 pages, 1637203 bytes).
+Output written on report_respiratory_simulink.pdf (11 pages, 1643408 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 324 compressed objects within 4 object streams
+ 443 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
