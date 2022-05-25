@@ -77,21 +77,19 @@ Si ottiene allora la funzione di trasferimento del sistema:
 \begin{equation}
 		\footnotesize{
 \begin{aligned}
-	H(s)&=\frac{Q(s)}{P_{a O}(s)}\\
+	H(s)&=\frac{Q(s)}{P_{a O}(s)}=\\
 	&=\frac{s^{2}+s \frac{1}{R_{P}}\left(\frac{1}{C_{S}}+\frac{1}{C_{e q}}\right)}{s^{2}\left(R_{C}\right)+s\left(\frac{R_{C}+R_{P}+\frac{R_{C} C_{S}}{C_{e q}}}{C_{S} R_{P}}\right)+\frac{1}{C_{e q} C_{S} R_{P}}}
 \end{aligned}}
 \label{eq:fdt}
 \end{equation}
 
-Dove si esprime la serie delle capacità come ${1\over C_{eq}}={1\over C_{L}}+{1\over C_{W}}$. 
+Dove si esprime la serie delle capacità come: 
+
+\begin{equation}
+	{1\over C_{eq}}={1\over C_{L}}+{1\over C_{W}}
+\end{equation}
 
 
-\begin{figure*}[t!]
-	\centering
-	\includegraphics[width=\linewidth]{simulink_base.pdf}
-	\caption{Modello del sistema in  \texttt{Simulink} diviso in due blocchi principali, uno rappresentante il ventilatore polmonare e l'altro il sistema polmonare, a cui vengono aggiunti un blocco per il salvataggio dei dati e alcune funzioni di visualizzazione.}
-	\label{fig:generale}
-\end{figure*}
 
 \subsection{Proprietà del sistema}
 
@@ -301,7 +299,7 @@ Nelle sezioni successive vengono fissati i parametri di ventilazione \cite{truwi
 Al fine di soddisfare la risposta del polmone, in termini di volume tidale \cite{ventilation_2000}, è necessario soddisfare una compliance complessiva del polmone di circa:
 
 \begin{equation}
-	C_{T}=\left({1 \over C_{W}}+{1 \over C_{L}}\right)^{-1}\approx 10 \text{mL/cmH2O}
+	C_{T}=\left({1 \over C_{W}}+{1 \over C_{L}}\right)^{-1}\approx 10 \text{ mL/cmH2O}
 \end{equation}
 
 Allora segue l'analisi considerando dei parametri medi di un'ordine di grandezza inferiore: $C_w=0.02$ L/cmH\textsubscript{2}O e $C_L=0.02$ L/cmH\textsubscript{2}O .
@@ -338,6 +336,11 @@ L'enfisema è caratterizzato da un aumento della resisitenza respiratoria e un c
 Sono presenti anche diversi fattori non legati a patologie specifiche che tendono ad aumentare le resistenze come la presenza di ostruzioni nel tubo endotracheale, tosse, secrezioni, broncospasmi e ritmo respiratori accelerato \cite{grossbach_overview_2011}.
 
 A questo si aggiungono anche dei fattori esterni che possono variare sia la resistenza che la compliance come restrizioni dell'impianto di ventilazione, contrazione addominale o aumento della pressione addominale oppure danni o deformazioni della parete toracica.
+\\
+
+Si vede come, variando entrambe le resistenze presenti, la risposta del volume è quasi nulla. Invece, il flusso varia leggermente il picco raggiunto. Dalle \cref{fig:Rc_flux,fig:Rc_volume,fig:Rp_flux,fig:Rp_volume} si vede come il flusso è più sensibile alla variazione di $R_c$.
+
+Ricordando che i test sono effettuati a parità di pressione, un aumento di resistenza si tradurrà in una riduzione del flusso. 
 
 \begin{figure*}[t!]
 \begin{subfigure}{\linewidth}
@@ -356,6 +359,8 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 	\caption{}
 \end{subfigure}\hfill
 \caption{Flusso con variazione della resistenza delle vie aeree superiori $R_c$ nel range $0.6\div 1$ [cmH\textsubscript{2}O s/L]. Flusso nel tempo (a); zooma nel secondo periodo respiratorio sulla zona di influsso (b) ed efflusso (c). Si vede come al ridursi della resistenza aumenta la velocità di variazione e il picco massimo.}
+\label{fig:Rc_flux}
+\vspace{0.8 cm}
 \begin{subfigure}{0.7\linewidth}
 	\centering
 	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_volume_total.pdf}
@@ -367,6 +372,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 	\caption{}
 \end{subfigure}\hfill
 \caption{Volume con variazione della resistenza delle vie aeree superiori $R_c$ nel range $0.6\div 1$ [cmH\textsubscript{2}O s/L]. Volume nel tempo (a); zoom sul secondo periodo respiratorio (b). Si vede come il volume risente molto poco della variazione della resistenza.}
+\label{fig:Rc_volume}
 \end{figure*}
 
 
@@ -386,7 +392,9 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_flux_zoom2.pdf}
 		\caption{}
 	\end{subfigure}\hfill
-	\caption{Flusso con variazione della resistenza delle vie aeree inferiori $R_p$ nel range $0.1\div 1$ [cmH\textsubscript{2}O s/L]. Flusso nel tempo (a); zoom nel secondo periodo respiratorio sulla zona di influsso (b) ed efflusso (c). Si osserva un comportamento particolare, all'aumentare della resistenza aumenta il picco del flusso.}
+	\caption{Flusso con variazione della resistenza delle vie aeree inferiori $R_p$ nel range $0.1\div 3.6$ [cmH\textsubscript{2}O s/L]. Flusso nel tempo (a); zoom nel secondo periodo respiratorio sulla zona di influsso (b) ed efflusso (c). Si osserva un comportamento particolare, all'aumentare della resistenza aumenta il picco del flusso.}
+	\label{fig:Rp_flux}
+	\vspace{0.6 cm}
 	\begin{subfigure}{0.7\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_volume_total.pdf}
@@ -397,7 +405,8 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_volume_zoom.pdf}
 		\caption{}
 	\end{subfigure}\hfill
-	\caption{Volume con variazione della resistenza delle vie aeree inferiori $R_p$ nel range $0.1\div 1$ [cmH\textsubscript{2}O s/L]. Volume nel tempo (a); zoom sul secondo periodo respiratorio (b). Si vede come il volume risente molto poco della variazione della resistenza $R_p$. }
+	\caption{Volume con variazione della resistenza delle vie aeree inferiori $R_p$ nel range $0.1\div 3.6$ [cmH\textsubscript{2}O s/L]. Volume nel tempo (a); zoom sul secondo periodo respiratorio (b). Si vede come il volume risente molto poco della variazione della resistenza $R_p$. }
+	\label{fig:Rp_volume}
 \end{figure*}
 
 
@@ -418,6 +427,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\caption{}
 	\end{subfigure}\hfill
 	\caption{Flusso con variazione della compliance polmonare (serie di $C_w$ e $C_L$) nel range $0.005\div 0.050$ [L/cmH\textsubscript{2}O]. Flusso nel tempo (a); zoom nel secondo periodo respiratorio sulla zona di influsso (b) ed efflusso (c). Si osserva come il flusso è fortemente influenzato dalla compliance polmonare. L'aumento della capacità $C_T$ porta ad un forte aumento del picco di flusso.}
+	\vspace{0.8 cm}
 	\begin{subfigure}{\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_volume_total.pdf}
@@ -450,8 +460,30 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\centering
 		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_deltaflux.pdf}
 		\caption{}
+		 \label{fig:flusso_shunt_delta}
 	\end{subfigure}\hfill
 	\caption{Flusso variando $C_s$ nel range $0.001\div 0.01$ [L/cmH\textsubscript{2}O] (a); norma della differenza di flusso tra shunt e alveoli (\cref{eq:shunt_Delta}) rispetto la variazione di $C_s$ (b). Si vede come aumentando la capacità di shunt un maggior flusso (e quindi volume) passerà per il ramo di shunt mentre il flusso complessivamente richiesto al ventilatore rimane quasi costante. Inoltre, più aumenta la $C_s$ più aumenta la differenza tra il flusso di shunt e quello alveolare e quindi il volume d'aria che effettivamente entra nel polmone si riduce. }
+	\label{fig:flusso_shunt}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_flux_alveolar_zoom.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_flux_alveolar_zoom.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.33\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_alveolar_flux_zoom.pdf}
+	\caption{}
+\end{subfigure}\hfill
+	\caption{Flusso alveolare rispetto le variazioni di $R_c$ (a), $R_p$ (b) e $C_T$ (c)}
+\label{fig:flux_alveolar}
 \end{figure*}
 
 
@@ -465,15 +497,27 @@ Nelle bronco pneumopatie croniche ostruttive (BPCO) si verifica una riduzione de
 Nel caso di edema polomonare cardiogeno (CPE) o non cardiogeno (ARDS) si verifica una riduzione della compliance fino a rispettivamente 0.044 L/cm H\textsubscript{2}O e 0.035 L/cm H\textsubscript{2}O \cite{milic-emili_basics_1999}.
 
 A questo si aggiungono altri fattori che contribuiscono a ridurre la compliance polmonare quali atelettasia, pneumotorace, spostamento del tubo endotracheale e polmoniti \cite{grossbach_overview_2011}.
+\\
 
+La variazione della compliance influenza molto il volume d'aria che entra nei polmoni. In particolare, essendo tipicamente $C_s$ molto piccolo e quindi la quantità di flusso che viene diretto sulla porzione di shunt e non entra nei polmoni molto bassa, è possibile trascurare tale contributo e considerare il volume in ingresso nei polmoni come il volume erogato dal ventilatore.
 
-\textcolor{red}{NORMA}
+Questo non è però vero nel caso in cui $C_s$ va ad aumentare. Infatti, come si può vedere dalla \cref{fig:flusso_shunt}, più aumenta $C_s$ più aumenta il flusso sul ramo shunt e più aumenta il divario tra il flusso totale (che invece rimane quasi costante con uno scarto medio inferiore a $10^{-3}$ [L/s]) e il flusso alveolare.
+
+In figura \cref{fig:flusso_shunt_delta} viene riportata la norma della differenza tra il flusso erogato dal respiratore e quello alveolare, normalizzato rispetto al valore massimo. 
 
 \begin{equation}
 	\small{
 \Delta \mathrm{Flux}={	\|\text{flusso su }C_s - \text{flusso alveolare}\|\over \max\left(\text{flusso su }C_s - \text{flusso alveolare}\right)}}
 \label{eq:shunt_Delta}
 \end{equation}
+
+\subsection{Flusso alveolare}
+
+Per avere la certezza della quantità d'aria effettivamente in ingresso nei polmoni e capace di effettuare scambi gassosi è necessario andare a leggere il valore di flusso sul ramo polmonare, ovvero sulla capacità $C_T$. 
+
+Confrontando i valori di flusso alveolare \cref{fig:flux_alveolar}, al variare dei parametri del sistema, con le rispettive variazioni del flusso totale è possibile identificare quanto flusso effettivamente entra nel polmone. 
+
+Nel caso della variazione delle resistenze la differenza tra i flussi rimane molto contenuta rispetto alla variazione della $C_T$ per la quale si vedono corrispondere quasi completamente le variazioni del flusso. Discorso diverso invece per la capacità di shunt per la quale corrisponde un aumento diretto del flusso di shunt a sfavore del flusso alveolare (\cref{fig:flusso_shunt}).
 
 \section{Conclusioni}
 
@@ -489,8 +533,7 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 
 
 \raggedbottom
-
-\pagebreak
+%\pagebreak
 \printbibliography[title=Riferimenti]
 %\section*{References}
 

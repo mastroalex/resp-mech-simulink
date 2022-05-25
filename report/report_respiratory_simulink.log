@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  25 MAY 2022 20:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  25 MAY 2022 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,7 +1467,12 @@ Package biblatex Info: ... file 'report_respiratory_simulink.bbl' found.
 (./report_respiratory_simulink.bbl)
 Package biblatex Info: Reference section=0 on input line 150.
 Package biblatex Info: Reference segment=0 on input line 150.
- (./testo.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+80.
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) (./testo.tex
 Underfull \hbox (badness 2435) in paragraph at lines 3--4
 []\T1/stix/m/n/12 La va-l-u-tazione del sisitema res-pi-ra-to-rio con
  []
@@ -1477,15 +1482,11 @@ Underfull \hbox (badness 5388) in paragraph at lines 5--6
 \T1/stix/m/n/12 monare di-versi con-tributi in-erziali ed elas-tici
  []
 
-
-Underfull \vbox (badness 1077) has occurred while \output is active []
-
 <figures//logo.png, id=4, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 17.
+Package pdftex.def Info: figures//logo.png  used on input line 16.
 (pdftex.def)             Requested size: 44.82474pt x 45.0pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 52.54129pt, for example:
@@ -1498,11 +1499,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./figures//logo.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-3.
- (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
 Underfull \hbox (badness 1062) in paragraph at lines 23--24
 \T1/stix/m/n/12 in-sieme a dif-fer-enti forme d'onda di pres-sione.
  []
@@ -1513,7 +1509,7 @@ Underfull \hbox (badness 2717) in paragraph at lines 23--24
  []
 
 (./figures//circuit.pdf_tex
-<figures//circuit.pdf, id=14, page=1, 267.25665pt x 160.4597pt>
+<figures//circuit.pdf, id=15, page=1, 267.25665pt x 160.4597pt>
 File: figures//circuit.pdf Graphic file (type pdf)
 <use figures//circuit.pdf, page 1>
 Package pdftex.def Info: figures//circuit.pdf , page1 used on input line 56.
@@ -1565,14 +1561,14 @@ e 57.
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 )
-<figures//circuit.pdf, id=15, page=2, 267.25665pt x 160.4597pt>
+<figures//circuit.pdf, id=16, page=2, 267.25665pt x 160.4597pt>
 File: figures//circuit.pdf Graphic file (type pdf)
 <use figures//circuit.pdf, page 2>
 Package pdftex.def Info: figures//circuit.pdf , page2 used on input line 67.
 (pdftex.def)             Requested size: 248.16516pt x 148.99826pt.
 )
 (./figures//lung.pdf_tex
-<figures//lung.pdf, id=16, page=1, 305.30646pt x 355.03726pt>
+<figures//lung.pdf, id=17, page=1, 305.30646pt x 355.03726pt>
 File: figures//lung.pdf Graphic file (type pdf)
 <use figures//lung.pdf, page 1>
 Package pdftex.def Info: figures//lung.pdf , page1 used on input line 56.
@@ -1599,17 +1595,15 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 78
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 86.
+(amsmath)                 on input line 89.
 
-<figures//simulink_base.pdf, id=17, 775.26338pt x 130.39516pt>
-File: figures//simulink_base.pdf Graphic file (type pdf)
-<use figures//simulink_base.pdf>
-Package pdftex.def Info: figures//simulink_base.pdf  used on input line 91.
-(pdftex.def)             Requested size: 496.33032pt x 83.48047pt.
 
-Underfull \hbox (badness 5431) in paragraph at lines 99--100
+Underfull \hbox (badness 5431) in paragraph at lines 97--98
 []\T1/stix/m/n/12 Chiaramente la soluzione di tale prob-lema
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1620,26 +1614,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 []\T1/stix/m/n/12 Esiste tut-tavia la pos-si-bil-ità di uti-liz-zare
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 130--131
+Underfull \hbox (badness 1087) in paragraph at lines 128--129
 []\T1/stix/m/n/12 Inoltre, tale am-bi-ente per-me-tte l'integrazione
  []
+
+
+LaTeX Warning: Reference `fig:generale' on page 1 undefined on input line 134.
 
 <figures//simulink_ventilator.pdf, id=26, 423.13582pt x 161.60374pt>
 File: figures//simulink_ventilator.pdf Graphic file (type pdf)
 <use figures//simulink_ventilator.pdf>
 Package pdftex.def Info: figures//simulink_ventilator.pdf  used on input line 1
-46.
+44.
 (pdftex.def)             Requested size: 198.5291pt x 75.82307pt.
 <figures//simulink_ventilator_GUI.png, id=27, 392.96812pt x 794.2172pt>
 File: figures//simulink_ventilator_GUI.png Graphic file (type png)
 <use figures//simulink_ventilator_GUI.png>
 Package pdftex.def Info: figures//simulink_ventilator_GUI.png  used on input li
-ne 151.
+ne 149.
 (pdftex.def)             Requested size: 392.96715pt x 794.21526pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1657,49 +1654,81 @@ iple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures//lung.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
-> <./figures//simulink_base.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures//simulink_base.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
 >]
-<figures//simulink_lung.pdf, id=96, 794.97pt x 297.03673pt>
+<figures//simulink_lung.pdf, id=35, 794.97pt x 297.03673pt>
 File: figures//simulink_lung.pdf Graphic file (type pdf)
 <use figures//simulink_lung.pdf>
-Package pdftex.def Info: figures//simulink_lung.pdf  used on input line 174.
+Package pdftex.def Info: figures//simulink_lung.pdf  used on input line 172.
 (pdftex.def)             Requested size: 496.33032pt x 185.45712pt.
 
-Underfull \hbox (badness 4036) in paragraph at lines 184--185
+Underfull \hbox (badness 4036) in paragraph at lines 182--183
 \T1/stix/m/n/12 per vi-su-al-iz-zare le forme d'onda di-ret-ta-mente
  []
 
-<../model/data_log/data_sine_wave_freq_15.pdf, id=97, 396.48125pt x 304.13625pt
+<../model/data_log/data_sine_wave_freq_15.pdf, id=36, 396.48125pt x 304.13625pt
 >
 File: ../model/data_log/data_sine_wave_freq_15.pdf Graphic file (type pdf)
 <use ../model/data_log/data_sine_wave_freq_15.pdf>
 Package pdftex.def Info: ../model/data_log/data_sine_wave_freq_15.pdf  used on 
-input line 198.
+input line 196.
 (pdftex.def)             Requested size: 235.75613pt x 180.84961pt.
-<../model/data_log/data_sine_wave_freq_15_zoom.pdf, id=98, 400.49625pt x 316.18
+<../model/data_log/data_sine_wave_freq_15_zoom.pdf, id=37, 400.49625pt x 316.18
 124pt>
 File: ../model/data_log/data_sine_wave_freq_15_zoom.pdf Graphic file (type pdf)
 
 <use ../model/data_log/data_sine_wave_freq_15_zoom.pdf>
 Package pdftex.def Info: ../model/data_log/data_sine_wave_freq_15_zoom.pdf  use
-d on input line 203.
+d on input line 201.
 (pdftex.def)             Requested size: 235.75613pt x 186.12558pt.
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-206.
+204.
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
-<../model/data_log/data_sine_wave_freq_45_zoom.pdf, id=99, 986.68625pt x 462.72
+<../model/data_log/data_sine_wave_freq_45_zoom.pdf, id=38, 986.68625pt x 462.72
 874pt>
 File: ../model/data_log/data_sine_wave_freq_45_zoom.pdf Graphic file (type pdf)
 
 <use ../model/data_log/data_sine_wave_freq_45_zoom.pdf>
 Package pdftex.def Info: ../model/data_log/data_sine_wave_freq_45_zoom.pdf  use
-d on input line 209.
+d on input line 207.
 (pdftex.def)             Requested size: 471.51228pt x 221.12584pt.
+
+Underfull \hbox (badness 1033) in paragraph at lines 216--218
+[]\T1/stix/m/n/12 Quindi, men-tre a bassa fre-quenza (ri-poso) il
+ []
+
+
+Underfull \hbox (badness 6204) in paragraph at lines 216--218
+\T1/stix/m/n/12 ad alta fre-quenza il com-por-ta-mento re-sis-tivo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+
+ []
+
+<../model/data_log/data_square_wave_freq_18.pdf, id=39, 384.43625pt x 303.1325p
+t>
+File: ../model/data_log/data_square_wave_freq_18.pdf Graphic file (type pdf)
+<use ../model/data_log/data_square_wave_freq_18.pdf>
+Package pdftex.def Info: ../model/data_log/data_square_wave_freq_18.pdf  used o
+n input line 224.
+(pdftex.def)             Requested size: 235.75613pt x 185.90039pt.
+<../model/data_log/PV_sine_vs_square.pdf, id=40, 365.365pt x 303.1325pt>
+File: ../model/data_log/PV_sine_vs_square.pdf Graphic file (type pdf)
+<use ../model/data_log/PV_sine_vs_square.pdf>
+Package pdftex.def Info: ../model/data_log/PV_sine_vs_square.pdf  used on input
+ line 229.
+(pdftex.def)             Requested size: 235.75613pt x 195.5999pt.
+
+Underfull \hbox (badness 1622) in paragraph at lines 236--237
+\T1/stix/m/n/12 ces-si-va-mente in-izia la fase in-spi-ra-to-ria dove il
+ []
+
+
+Underfull \vbox (badness 1648) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1711,51 +1740,64 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [4 <./figures//simulink_ventilator.pdf> <./figures//simulink_ventilator_GUI.png
  (PNG copy)>]
-Underfull \hbox (badness 1033) in paragraph at lines 218--220
-[]\T1/stix/m/n/12 Quindi, men-tre a bassa fre-quenza (ri-poso) il
- []
-
-
-Underfull \hbox (badness 6204) in paragraph at lines 218--220
-\T1/stix/m/n/12 ad alta fre-quenza il com-por-ta-mento re-sis-tivo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
-
- []
-
-<../model/data_log/data_square_wave_freq_18.pdf, id=138, 384.43625pt x 303.1325
-pt>
-File: ../model/data_log/data_square_wave_freq_18.pdf Graphic file (type pdf)
-<use ../model/data_log/data_square_wave_freq_18.pdf>
-Package pdftex.def Info: ../model/data_log/data_square_wave_freq_18.pdf  used o
-n input line 226.
-(pdftex.def)             Requested size: 235.75613pt x 185.90039pt.
-<../model/data_log/PV_sine_vs_square.pdf, id=139, 365.365pt x 303.1325pt>
-File: ../model/data_log/PV_sine_vs_square.pdf Graphic file (type pdf)
-<use ../model/data_log/PV_sine_vs_square.pdf>
-Package pdftex.def Info: ../model/data_log/PV_sine_vs_square.pdf  used on input
- line 231.
-(pdftex.def)             Requested size: 235.75613pt x 195.5999pt.
-
-Underfull \hbox (badness 1622) in paragraph at lines 238--239
-\T1/stix/m/n/12 ces-si-va-mente in-izia la fase in-spi-ra-to-ria dove il
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 243--244
+Underfull \hbox (badness 1194) in paragraph at lines 241--242
 []\T1/stix/m/n/12 Chiaramente tale forme d'onda sono mod-elli
  []
 
 
-Underfull \vbox (badness 1215) has occurred while \output is active []
+LaTeX Font Warning: Command \small invalid in math mode on input line 256.
 
+(./figures//PCV_VCV.pdf_tex
+<figures//PCV_VCV.pdf, id=79, page=1, 368.06905pt x 249.63145pt>
+File: figures//PCV_VCV.pdf Graphic file (type pdf)
+<use figures//PCV_VCV.pdf, page 1>
+Package pdftex.def Info: figures//PCV_VCV.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 248.16516pt x 168.31113pt.
+<figures//PCV_VCV.pdf, id=80, page=2, 368.06905pt x 249.63145pt>
+File: figures//PCV_VCV.pdf Graphic file (type pdf)
+<use figures//PCV_VCV.pdf, page 2>
+Package pdftex.def Info: figures//PCV_VCV.pdf , page2 used on input line 61.
+(pdftex.def)             Requested size: 248.16516pt x 168.31113pt.
+) (./figures//PCV.pdf_tex
+<figures//PCV.pdf, id=81, page=1, 383.38373pt x 221.71774pt>
+File: figures//PCV.pdf Graphic file (type pdf)
+<use figures//PCV.pdf, page 1>
+Package pdftex.def Info: figures//PCV.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 248.16516pt x 143.51938pt.
+<figures//PCV.pdf, id=82, page=2, 383.38373pt x 221.71774pt>
+File: figures//PCV.pdf Graphic file (type pdf)
+<use figures//PCV.pdf, page 2>
+Package pdftex.def Info: figures//PCV.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 248.16516pt x 143.51938pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+[]\T1/stix/m/n/12 A tal propos-ito viene an-che mod-i-fi-cata
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 290--291
+\T1/stix/m/n/12 l'interfaccia grafica (fig. 2b) in moto tale da
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 290--291
+\T1/stix/m/n/12 per-me-tte la se-lezione di una forma d'onda di
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 290--291
+\T1/stix/m/n/12 pres-sione, las-ciando all'utente la pos-si-bil-ità di
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 290--291
+\T1/stix/m/n/12 scegliere fre-quenza, tempo di in-spi-razione (in
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1766,79 +1808,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [5 <./figures//simulink_lung.pdf>]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 258.
-
-(./figures//PCV_VCV.pdf_tex
-<figures//PCV_VCV.pdf, id=167, page=1, 368.06905pt x 249.63145pt>
-File: figures//PCV_VCV.pdf Graphic file (type pdf)
-<use figures//PCV_VCV.pdf, page 1>
-Package pdftex.def Info: figures//PCV_VCV.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 248.16516pt x 168.31113pt.
-<figures//PCV_VCV.pdf, id=168, page=2, 368.06905pt x 249.63145pt>
-File: figures//PCV_VCV.pdf Graphic file (type pdf)
-<use figures//PCV_VCV.pdf, page 2>
-Package pdftex.def Info: figures//PCV_VCV.pdf , page2 used on input line 61.
-(pdftex.def)             Requested size: 248.16516pt x 168.31113pt.
-) (./figures//PCV.pdf_tex
-<figures//PCV.pdf, id=169, page=1, 383.38373pt x 221.71774pt>
-File: figures//PCV.pdf Graphic file (type pdf)
-<use figures//PCV.pdf, page 1>
-Package pdftex.def Info: figures//PCV.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 248.16516pt x 143.51938pt.
-<figures//PCV.pdf, id=170, page=2, 383.38373pt x 221.71774pt>
-File: figures//PCV.pdf Graphic file (type pdf)
-<use figures//PCV.pdf, page 2>
-Package pdftex.def Info: figures//PCV.pdf , page2 used on input line 58.
-(pdftex.def)             Requested size: 248.16516pt x 143.51938pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-[]\T1/stix/m/n/12 A tal propos-ito viene an-che mod-i-fi-cata
- []
-
-
-Underfull \hbox (badness 3138) in paragraph at lines 292--293
-\T1/stix/m/n/12 l'interfaccia grafica (fig. 3b) in moto tale da
- []
-
-
-Underfull \hbox (badness 2229) in paragraph at lines 292--293
-\T1/stix/m/n/12 per-me-tte la se-lezione di una forma d'onda di
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 292--293
-\T1/stix/m/n/12 pres-sione, las-ciando all'utente la pos-si-bil-ità di
- []
-
-
-Underfull \hbox (badness 2884) in paragraph at lines 292--293
-\T1/stix/m/n/12 scegliere fre-quenza, tempo di in-spi-razione (in
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 296--298
+Underfull \hbox (badness 2980) in paragraph at lines 294--296
 []\T1/stix/m/n/12 Una volta im-postato tale sim-u-la-tore per-me-
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 296--298
+Underfull \hbox (badness 1400) in paragraph at lines 294--296
 \T1/stix/m/n/12 tte di cal-i-brare la ven-ti-lazione e di ad-de-strarsi
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 296--298
+Underfull \hbox (badness 2285) in paragraph at lines 294--296
 \T1/stix/m/n/12 nell'utilizzo di un ven-ti-la-tore reale an-dando a
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 296--298
+Underfull \hbox (badness 4846) in paragraph at lines 294--296
 \T1/stix/m/n/12 come mod-i-fi-care la ven-ti-lazione in base alla
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--298
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+[]\T1/stix/m/n/12 Nelle sezioni suc-ces-sive ven-gono fis-sati i
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 297--298
+\T1/stix/m/n/12 per-me-t-tono di ap-prossi-mare le forme d'onda
  []
 
 
@@ -1855,43 +1859,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6 <../model/data_log/data_sine_wave_freq_15.pdf> <../model/data_log/data_sine_
 wave_freq_15_zoom.pdf> <../model/data_log/data_sine_wave_freq_45_zoom.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-[]\T1/stix/m/n/12 Nelle sezioni suc-ces-sive ven-gono fis-sati i
- []
-
-
-Underfull \hbox (badness 6608) in paragraph at lines 299--300
-\T1/stix/m/n/12 per-me-t-tono di ap-prossi-mare le forme d'onda
- []
-
-
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 309--310
+Underfull \hbox (badness 1062) in paragraph at lines 307--308
 []\T1/stix/m/n/12 Si anal-izza al-lora come varia la ven-ti-lazione
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 309--310
+Underfull \hbox (badness 2173) in paragraph at lines 307--308
 \T1/stix/m/n/12 in fun-zione della vari-azione dei parametri del
  []
 
 <../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.pdf,
- id=249, 396.48125pt x 304.13625pt>
+ id=188, 396.48125pt x 304.13625pt>
 File: ../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18
 .pdf Graphic file (type pdf)
 <use ../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.
 pdf>
 Package pdftex.def Info: ../model/data_log/data_square_wave_rise_15_Tinsp_40_PE
-EP_5_Paw_25_freq_18.pdf  used on input line 314.
+EP_5_Paw_25_freq_18.pdf  used on input line 312.
 (pdftex.def)             Requested size: 235.75613pt x 180.84961pt.
-<../model/data_log/PV_rise_time.pdf, id=250, 365.365pt x 306.14375pt>
+<../model/data_log/PV_rise_time.pdf, id=189, 365.365pt x 306.14375pt>
 File: ../model/data_log/PV_rise_time.pdf Graphic file (type pdf)
 <use ../model/data_log/PV_rise_time.pdf>
 Package pdftex.def Info: ../model/data_log/PV_rise_time.pdf  used on input line
- 319.
+ 317.
 (pdftex.def)             Requested size: 235.75613pt x 197.54294pt.
+
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1914,126 +1909,159 @@ pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
 pdfTeX warning: pdflatex.exe (file ./figures//PCV.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
-<../model/data_log/Rc_flux_total.pdf, id=325, 856.19875pt x 295.1025pt>
+Underfull \hbox (badness 1635) in paragraph at lines 338--340
+\T1/stix/m/n/12 ad-dom-i-nale op-pure danni o de-for-mazioni della
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
+
+ []
+
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+<../model/data_log/Rc_flux_total.pdf, id=263, 856.19875pt x 295.1025pt>
 File: ../model/data_log/Rc_flux_total.pdf Graphic file (type pdf)
 <use ../model/data_log/Rc_flux_total.pdf>
 Package pdftex.def Info: ../model/data_log/Rc_flux_total.pdf  used on input lin
-e 345.
+e 348.
 (pdftex.def)             Requested size: 471.51228pt x 162.51399pt.
-<../model/data_log/Rc_flux_zoom1.pdf, id=326, 369.38pt x 310.15875pt>
+<../model/data_log/Rc_flux_zoom1.pdf, id=264, 369.38pt x 310.15875pt>
 File: ../model/data_log/Rc_flux_zoom1.pdf Graphic file (type pdf)
 <use ../model/data_log/Rc_flux_zoom1.pdf>
 Package pdftex.def Info: ../model/data_log/Rc_flux_zoom1.pdf  used on input lin
-e 350.
+e 353.
 (pdftex.def)             Requested size: 235.75613pt x 197.95667pt.
-<../model/data_log/Rc_flux_zoom2.pdf, id=327, 367.3725pt x 310.15875pt>
+<../model/data_log/Rc_flux_zoom2.pdf, id=265, 367.3725pt x 310.15875pt>
 File: ../model/data_log/Rc_flux_zoom2.pdf Graphic file (type pdf)
 <use ../model/data_log/Rc_flux_zoom2.pdf>
 Package pdftex.def Info: ../model/data_log/Rc_flux_zoom2.pdf  used on input lin
-e 355.
+e 358.
 (pdftex.def)             Requested size: 235.75613pt x 199.04517pt.
-<../model/data_log/Rc_volume_total.pdf, id=328, 860.21375pt x 295.1025pt>
+<../model/data_log/Rc_volume_total.pdf, id=266, 860.21375pt x 295.1025pt>
 File: ../model/data_log/Rc_volume_total.pdf Graphic file (type pdf)
 <use ../model/data_log/Rc_volume_total.pdf>
 Package pdftex.def Info: ../model/data_log/Rc_volume_total.pdf  used on input l
-ine 361.
+ine 366.
 (pdftex.def)             Requested size: 330.05714pt x 113.2298pt.
-<../model/data_log/Rc_volume_zoom.pdf, id=329, 367.3725pt x 310.15875pt>
+<../model/data_log/Rc_volume_zoom.pdf, id=267, 367.3725pt x 310.15875pt>
 File: ../model/data_log/Rc_volume_zoom.pdf Graphic file (type pdf)
 <use ../model/data_log/Rc_volume_zoom.pdf>
 Package pdftex.def Info: ../model/data_log/Rc_volume_zoom.pdf  used on input li
-ne 366.
+ne 371.
 (pdftex.def)             Requested size: 141.45511pt x 119.42804pt.
-<../model/data_log/Rp_flux_total.pdf, id=330, 856.19875pt x 295.1025pt>
+<../model/data_log/Rp_flux_total.pdf, id=268, 856.19875pt x 295.1025pt>
 File: ../model/data_log/Rp_flux_total.pdf Graphic file (type pdf)
 <use ../model/data_log/Rp_flux_total.pdf>
 Package pdftex.def Info: ../model/data_log/Rp_flux_total.pdf  used on input lin
-e 376.
+e 382.
 (pdftex.def)             Requested size: 471.51228pt x 162.51399pt.
-<../model/data_log/Rp_flux_zoom1.pdf, id=331, 369.38pt x 310.15875pt>
+<../model/data_log/Rp_flux_zoom1.pdf, id=269, 369.38pt x 310.15875pt>
 File: ../model/data_log/Rp_flux_zoom1.pdf Graphic file (type pdf)
 <use ../model/data_log/Rp_flux_zoom1.pdf>
 Package pdftex.def Info: ../model/data_log/Rp_flux_zoom1.pdf  used on input lin
-e 381.
+e 387.
 (pdftex.def)             Requested size: 235.75613pt x 197.95667pt.
-<../model/data_log/Rp_flux_zoom2.pdf, id=332, 367.3725pt x 310.15875pt>
+<../model/data_log/Rp_flux_zoom2.pdf, id=270, 367.3725pt x 310.15875pt>
 File: ../model/data_log/Rp_flux_zoom2.pdf Graphic file (type pdf)
 <use ../model/data_log/Rp_flux_zoom2.pdf>
 Package pdftex.def Info: ../model/data_log/Rp_flux_zoom2.pdf  used on input lin
-e 386.
+e 392.
 (pdftex.def)             Requested size: 235.75613pt x 199.04517pt.
-<../model/data_log/Rp_volume_total.pdf, id=333, 860.21375pt x 295.1025pt>
+<../model/data_log/Rp_volume_total.pdf, id=271, 860.21375pt x 295.1025pt>
 File: ../model/data_log/Rp_volume_total.pdf Graphic file (type pdf)
 <use ../model/data_log/Rp_volume_total.pdf>
 Package pdftex.def Info: ../model/data_log/Rp_volume_total.pdf  used on input l
-ine 392.
+ine 400.
 (pdftex.def)             Requested size: 330.05714pt x 113.2298pt.
-<../model/data_log/Rp_volume_zoom.pdf, id=334, 367.3725pt x 310.15875pt>
+<../model/data_log/Rp_volume_zoom.pdf, id=272, 367.3725pt x 310.15875pt>
 File: ../model/data_log/Rp_volume_zoom.pdf Graphic file (type pdf)
 <use ../model/data_log/Rp_volume_zoom.pdf>
 Package pdftex.def Info: ../model/data_log/Rp_volume_zoom.pdf  used on input li
-ne 397.
+ne 405.
 (pdftex.def)             Requested size: 141.45511pt x 119.42804pt.
-<../model/data_log/CwCL_flux_total.pdf, id=335, 856.19875pt x 295.1025pt>
+<../model/data_log/CwCL_flux_total.pdf, id=273, 856.19875pt x 295.1025pt>
 File: ../model/data_log/CwCL_flux_total.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_flux_total.pdf>
 Package pdftex.def Info: ../model/data_log/CwCL_flux_total.pdf  used on input l
-ine 407.
+ine 416.
 (pdftex.def)             Requested size: 471.51228pt x 162.51399pt.
-<../model/data_log/CwCL_flux_zoom1.pdf, id=336, 358.33875pt x 310.15875pt>
+<../model/data_log/CwCL_flux_zoom1.pdf, id=274, 358.33875pt x 310.15875pt>
 File: ../model/data_log/CwCL_flux_zoom1.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_flux_zoom1.pdf>
 Package pdftex.def Info: ../model/data_log/CwCL_flux_zoom1.pdf  used on input l
-ine 412.
+ine 421.
 (pdftex.def)             Requested size: 235.75613pt x 204.06177pt.
-<../model/data_log/CwCL_flux_zoom2.pdf, id=337, 367.3725pt x 310.15875pt>
+<../model/data_log/CwCL_flux_zoom2.pdf, id=275, 367.3725pt x 310.15875pt>
 File: ../model/data_log/CwCL_flux_zoom2.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_flux_zoom2.pdf>
 Package pdftex.def Info: ../model/data_log/CwCL_flux_zoom2.pdf  used on input l
-ine 417.
+ine 426.
 (pdftex.def)             Requested size: 235.75613pt x 199.04517pt.
-<../model/data_log/CwCL_volume_total.pdf, id=338, 855.195pt x 295.1025pt>
+<../model/data_log/CwCL_volume_total.pdf, id=276, 855.195pt x 295.1025pt>
 File: ../model/data_log/CwCL_volume_total.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_volume_total.pdf>
 Package pdftex.def Info: ../model/data_log/CwCL_volume_total.pdf  used on input
- line 423.
+ line 433.
 (pdftex.def)             Requested size: 471.51228pt x 162.70311pt.
-<../model/data_log/CwCL_volume_zoom.pdf, id=339, 362.35374pt x 310.15875pt>
+<../model/data_log/CwCL_volume_zoom.pdf, id=277, 362.35374pt x 310.15875pt>
 File: ../model/data_log/CwCL_volume_zoom.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_volume_zoom.pdf>
 Package pdftex.def Info: ../model/data_log/CwCL_volume_zoom.pdf  used on input 
-line 432.
+line 442.
 (pdftex.def)             Requested size: 235.75613pt x 201.79956pt.
-<../model/data_log/CwCL_PV.pdf, id=340, 365.365pt x 295.1025pt>
+<../model/data_log/CwCL_PV.pdf, id=278, 365.365pt x 295.1025pt>
 File: ../model/data_log/CwCL_PV.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_PV.pdf>
-Package pdftex.def Info: ../model/data_log/CwCL_PV.pdf  used on input line 437.
+Package pdftex.def Info: ../model/data_log/CwCL_PV.pdf  used on input line 447.
 
 (pdftex.def)             Requested size: 235.75613pt x 190.41844pt.
-<../model/data_log/Cs_fluxCS.pdf, id=341, 616.3025pt x 321.2pt>
+<../model/data_log/Cs_fluxCS.pdf, id=279, 616.3025pt x 321.2pt>
 File: ../model/data_log/Cs_fluxCS.pdf Graphic file (type pdf)
 <use ../model/data_log/Cs_fluxCS.pdf>
-Package pdftex.def Info: ../model/data_log/Cs_fluxCS.pdf  used on input line 44
+Package pdftex.def Info: ../model/data_log/Cs_fluxCS.pdf  used on input line 45
 6.
 (pdftex.def)             Requested size: 282.91023pt x 147.44502pt.
-<../model/data_log/CwCL_deltaflux.pdf, id=342, 370.38374pt x 309.155pt>
+<../model/data_log/CwCL_deltaflux.pdf, id=280, 370.38374pt x 305.14pt>
 File: ../model/data_log/CwCL_deltaflux.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_deltaflux.pdf>
 Package pdftex.def Info: ../model/data_log/CwCL_deltaflux.pdf  used on input li
-ne 451.
-(pdftex.def)             Requested size: 188.60204pt x 157.42638pt.
+ne 461.
+(pdftex.def)             Requested size: 188.60204pt x 155.38187pt.
+<../model/data_log/Rc_flux_alveolar_zoom.pdf, id=281, 369.38pt x 310.15875pt>
+File: ../model/data_log/Rc_flux_alveolar_zoom.pdf Graphic file (type pdf)
+<use ../model/data_log/Rc_flux_alveolar_zoom.pdf>
+Package pdftex.def Info: ../model/data_log/Rc_flux_alveolar_zoom.pdf  used on i
+nput line 472.
+(pdftex.def)             Requested size: 155.5999pt x 130.65385pt.
+<../model/data_log/Rp_flux_alveolar_zoom.pdf, id=282, 369.38pt x 310.15875pt>
+File: ../model/data_log/Rp_flux_alveolar_zoom.pdf Graphic file (type pdf)
+<use ../model/data_log/Rp_flux_alveolar_zoom.pdf>
+Package pdftex.def Info: ../model/data_log/Rp_flux_alveolar_zoom.pdf  used on i
+nput line 477.
+(pdftex.def)             Requested size: 155.5999pt x 130.65385pt.
+<../model/data_log/CwCL_alveolar_flux_zoom.pdf, id=283, 358.33875pt x 310.15875
+pt>
+File: ../model/data_log/CwCL_alveolar_flux_zoom.pdf Graphic file (type pdf)
+<use ../model/data_log/CwCL_alveolar_flux_zoom.pdf>
+Package pdftex.def Info: ../model/data_log/CwCL_alveolar_flux_zoom.pdf  used on
+ input line 482.
+(pdftex.def)             Requested size: 155.5999pt x 134.68134pt.
 
-Underfull \hbox (badness 4569) in paragraph at lines 465--466
+Underfull \hbox (badness 4569) in paragraph at lines 497--498
 []\T1/stix/m/n/12 Nel caso di edema polomonare car-dio-geno
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 467--468
+Underfull \hbox (badness 1946) in paragraph at lines 499--501
 \T1/stix/m/n/12 tribuis-cono a ridurre la com-pli-ance pol-monare
  []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 473.
+Underfull \hbox (badness 10000) in paragraph at lines 499--501
+
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2045,7 +2073,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.p
 df> <../model/data_log/PV_rise_time.pdf>]
-Underfull \vbox (badness 3803) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -2076,10 +2107,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [10 <../model/data_log/Rp_flux_total.pdf> <../model/data_log/Rp_flux_zoom1.pdf>
  <../model/data_log/Rp_flux_zoom2.pdf> <../model/data_log/Rp_volume_total.pdf> 
 <../model/data_log/Rp_volume_zoom.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Warning: Text page 11 contains only floats.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (9.37045pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: Text page 11 contains only floats.
+
+
+Overfull \vbox (9.37045pt too high) has occurred while \output is active []
 
 
 
@@ -2093,8 +2132,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [11 <../model/data_log/CwCL_flux_total.pdf> <../model/data_log/CwCL_flux_zoom1.
 pdf> <../model/data_log/CwCL_flux_zoom2.pdf> <../model/data_log/CwCL_volume_tot
 al.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+LaTeX Font Warning: Command \small invalid in math mode on input line 509.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2106,62 +2145,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12 <../model/data_log/CwCL_volume_zoom.pdf> <../model/data_log/CwCL_PV.pdf> <.
 ./model/data_log/Cs_fluxCS.pdf> <../model/data_log/CwCL_deltaflux.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 494--494
+Underfull \hbox (badness 1939) in paragraph at lines 537--537
 \T1/stix/m/n/12 Daoud. ``Go with the flow^^Vclinical im-
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 494--494
+Underfull \hbox (badness 1033) in paragraph at lines 537--537
 \T1/stix/m/n/12 por-tance of flow curves dur-ing me-chan-i-
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 494--494
+Underfull \hbox (badness 2884) in paragraph at lines 537--537
 \T1/stix/m/n/12 u-la-tion of Pres-sure Con-trolled Me-chan-i-
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 494--494
+Underfull \hbox (badness 2065) in paragraph at lines 537--537
 \T1/stix/m/n/12 cal Ven-ti-la-tion Sys-tem''. en. In: \T1/stix/m/it/12 Jour-nal
 
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 494--494
+Underfull \hbox (badness 4479) in paragraph at lines 537--537
 \T1/stix/m/it/12 of Biomed-i-cal Sci-ence and En-gi-neer-ing
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 494--494
+Underfull \hbox (badness 2245) in paragraph at lines 537--537
 \T1/stix/m/n/12 08.10 (2015), pp. 707^^U716. \T1/stix/m/sc/12 issn\T1/stix/m/n/
 12 : 1937-
- []
-
-
-Underfull \hbox (badness 5893) in paragraph at lines 494--494
-\T1/stix/m/it/12 Crit-i-cal Care Nurse \T1/stix/m/n/12 31.3 (June 2011),
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 494--494
-\T1/stix/m/n/12 pp. 30^^U44. \T1/stix/m/sc/12 issn\T1/stix/m/n/12 : 0279-5442, 
-1940-8250.
- []
-
-
-Underfull \hbox (badness 1237) in paragraph at lines 494--494
-\T1/cmtt/m/n/12 / / aacnjournals . org / ccnonline /
  []
 
 
@@ -2172,35 +2195,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13]
-Underfull \hbox (badness 1102) in paragraph at lines 494--494
+[13 <../model/data_log/Rc_flux_alveolar_zoom.pdf> <../model/data_log/Rp_flux_al
+veolar_zoom.pdf> <../model/data_log/CwCL_alveolar_flux_zoom.pdf>]
+Underfull \hbox (badness 5893) in paragraph at lines 537--537
+\T1/stix/m/it/12 Crit-i-cal Care Nurse \T1/stix/m/n/12 31.3 (June 2011),
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 537--537
+\T1/stix/m/n/12 pp. 30^^U44. \T1/stix/m/sc/12 issn\T1/stix/m/n/12 : 0279-5442, 
+1940-8250.
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 537--537
+\T1/cmtt/m/n/12 / / aacnjournals . org / ccnonline /
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 537--537
 \T1/stix/m/it/12 chan-i-cal Ven-ti-la-tion\T1/stix/m/n/12 . Ed. by Jonathon D.
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 494--494
+Underfull \hbox (badness 1320) in paragraph at lines 537--537
 \T1/stix/m/n/12 Tidal Vol-umes as Com-pared with Tra-di-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 494--494
+Underfull \hbox (badness 1178) in paragraph at lines 537--537
 \T1/stix/m/it/12 Medicine \T1/stix/m/n/12 342.18 (May 2000), pp. 1301^^U
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 494--494
+Underfull \hbox (badness 1859) in paragraph at lines 537--537
 \T1/stix/m/n/12 1308. \T1/stix/m/sc/12 issn\T1/stix/m/n/12 : 0028-4793, 1533-44
 06. \T1/stix/m/sc/12 doi\T1/stix/m/n/12 :
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 494--494
+Underfull \hbox (badness 1308) in paragraph at lines 537--537
 \T1/stix/m/n/12 en. Mi-lano: Springer Mi-lan, 1999. \T1/stix/m/sc/12 isbn\T1/st
 ix/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 \T1/stix/m/n/12 978-88-470-0046-9 978-88-470-2273-7.
  []
 
@@ -2212,15 +2252,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14
-
-] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+[14] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-<figures//GUI.png, id=499, 389.95688pt x 716.6775pt>
+<figures//GUI.png, id=450, 389.95688pt x 716.6775pt>
 File: figures//GUI.png Graphic file (type png)
 <use figures//GUI.png>
-Package pdftex.def Info: figures//GUI.png  used on input line 552.
+Package pdftex.def Info: figures//GUI.png  used on input line 595.
 (pdftex.def)             Requested size: 389.95592pt x 716.67577pt.
 )
 
@@ -2237,17 +2275,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
  <./figures//GUI.png>] (./report_respiratory_simulink.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
 \openout1 = `report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47547 strings out of 478579
- 1081814 string characters out of 5857457
- 2171785 words of memory out of 5000000
- 64695 multiletter control sequences out of 15000+600000
- 531966 words of font info for 190 fonts, out of 8000000 for 9000
+ 47576 strings out of 478579
+ 1082915 string characters out of 5857457
+ 2171229 words of memory out of 5000000
+ 64722 multiletter control sequences out of 15000+600000
+ 534695 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,97p,1897b,1954s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
@@ -2264,10 +2305,10 @@ texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/texmf-dist/
 fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1
 /public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/sti
 x/stix-mathscr.pfb>
-Output written on report_respiratory_simulink.pdf (15 pages, 2014448 bytes).
+Output written on report_respiratory_simulink.pdf (15 pages, 1288366 bytes).
 PDF statistics:
- 562 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
+ 512 PDF objects out of 1000 (max. 8388607)
+ 391 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

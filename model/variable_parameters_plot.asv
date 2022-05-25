@@ -215,7 +215,7 @@ title('Flux by varying R_p : zoom over 2^{nd} expiratory peak')
 
 figure;
 for i=1:2:length(file_list)
-plot(time_resistance_Rp{i},flux_alveolar_resistance_Rp{i})
+plot(time_resistance_Rp{i},flux_resistance_Rp{i})
 hold on
 end
 hold off
@@ -357,21 +357,20 @@ title('Flux by varying C_T : zoom over 2^{nd} expiratory peak')
 
 figure;
 for i=1:2:length(file_list)
-plot(time_capacitance_CwCL{i},flux_alveolar_capacitance_CwCL{i})
+plot(time_capacitance_CwCL{i},flux_capacitance_CwCL{i})
 hold on
 end
 hold off
-ylim([-0.5, 8])
-xlim([3.1,3.7])
-legend(capacitance_CwCL{1:2:end},'Location','northwest')
+ylim([-15, 1])
+xlim([3.5,5.5])
+legend(capacitance_CwCL{1:2:end},'Location','southeast')
 xlabel('t [s]')
 ylabel('Flux [L/s]')
-title('Alveolar flux by varying C_T : zoom over 2^{nd} expiratory peak')
+title('Flux by varying C_T : zoom over 2^{nd} expiratory peak')
 
 exportgraphics(figure(1),'data_log/CwCL_flux_total.pdf','BackgroundColor','none','ContentType','vector');
 exportgraphics(figure(2),'data_log/CwCL_flux_zoom1.pdf','BackgroundColor','none','ContentType','vector');
 exportgraphics(figure(3),'data_log/CwCL_flux_zoom2.pdf','BackgroundColor','none','ContentType','vector');
-exportgraphics(figure(4),'data_log/CwCL_alveolar_flux_zoom.pdf','BackgroundColor','none','ContentType','vector');
 
 %% 
 
