@@ -339,6 +339,124 @@ Sono presenti anche diversi fattori non legati a patologie specifiche che tendon
 
 A questo si aggiungono anche dei fattori esterni che possono variare sia la resistenza che la compliance come restrizioni dell'impianto di ventilazione, contrazione addominale o aumento della pressione addominale oppure danni o deformazioni della parete toracica.
 
+\begin{figure*}[t!]
+\begin{subfigure}{\linewidth}
+\centering
+\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_flux_total.pdf}
+\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_flux_zoom1.pdf}
+	\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_flux_zoom2.pdf}
+	\caption{}
+\end{subfigure}\hfill
+\caption{}
+\begin{subfigure}{0.7\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_volume_total.pdf}
+	\caption{}
+\end{subfigure}\hfill
+\begin{subfigure}{0.3\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_volume_zoom.pdf}
+	\caption{}
+\end{subfigure}\hfill
+\caption{}
+\end{figure*}
+
+
+\begin{figure*}[t!]
+	\begin{subfigure}{\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_flux_total.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_flux_zoom1.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_flux_zoom2.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{}
+	\begin{subfigure}{0.7\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_volume_total.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.3\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_volume_zoom.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{}
+\end{figure*}
+
+
+\begin{figure*}[t!]
+	\begin{subfigure}{\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_flux_total.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_flux_zoom1.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_flux_zoom2.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{}
+	\begin{subfigure}{\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_volume_total.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{}
+\end{figure*}
+
+
+\begin{figure*}[t!]
+	\begin{subfigure}{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_volume_zoom.pdf}
+	\caption{}
+\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_PV.pdf}
+	\caption{}
+\end{subfigure}\hfill
+	\caption{}
+\end{figure*}
+
+\begin{figure*}[t!]
+	\begin{subfigure}{0.6\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/Cs_fluxCS.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.4\linewidth}
+		\centering
+		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_deltaflux.pdf}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{}
+\end{figure*}
+
+
+
 \subsection{Compliance polmonare}
 
 Anche la compliance polmonare viene intaccata da alcune patologie.
@@ -348,6 +466,14 @@ Nelle bronco pneumopatie croniche ostruttive (BPCO) si verifica una riduzione de
 Nel caso di edema polomonare cardiogeno (CPE) o non cardiogeno (ARDS) si verifica una riduzione della compliance fino a rispettivamente 0.044 L/cm H\textsubscript{2}O e 0.035 L/cm H\textsubscript{2}O \cite{milic-emili_basics_1999}.
 
 A questo si aggiungono altri fattori che contribuiscono a ridurre la compliance polmonare quali atelettasia, pneumotorace, spostamento del tubo endotracheale e polmoniti \cite{grossbach_overview_2011}.
+
+
+\textcolor{red}{NORMA}
+
+\begin{equation}
+	\small{
+\Delta \mathrm{Flux}={	\|\text{flusso su }C_s - \text{flusso alveolare}\|\over \max\left(\text{flusso su }C_s - \text{flusso alveolare}\right)}}
+\end{equation}
 
 \section{Conclusioni}
 
