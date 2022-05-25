@@ -488,6 +488,43 @@
     \field{urlyear}{2022}
   \endentry
 
+  \entry{ventilation_2000}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BRG}{%
+         family={Browe},
+         familyi={B\bibinitperiod},
+         given={(Roy\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BRG1}
+    \strng{fullhash}{BRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1056/NEJM200005043421801
+    \endverb
+    \field{issn}{0028-4793, 1533-4406}
+    \field{number}{18}
+    \field{pages}{1301\bibrangedash 1308}
+    \field{title}{Ventilation with {Lower} {Tidal} {Volumes} as {Compared} with
+  {Traditional} {Tidal} {Volumes} for {Acute} {Lung} {Injury} and the {Acute}
+  {Respiratory} {Distress} {Syndrome}}
+    \verb{url}
+    \verb http://www.nejm.org/doi/abs/10.1056/NEJM200005043421801
+    \endverb
+    \field{volume}{342}
+    \field{journaltitle}{New England Journal of Medicine}
+    \field{month}{05}
+    \field{year}{2000}
+    \field{urlday}{25}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+
   \entry{milic-emili_basics_1999}{book}{}
     \name{editor}{4}{}{%
       {{hash=MEJ}{%

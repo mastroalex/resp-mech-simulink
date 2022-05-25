@@ -48,10 +48,10 @@ Tale modello viene implementato in \texttt{Simulink} insieme a differenti forme 
 Il circuito polmonare può essere analizzando facendo un'analogia con i circuiti elettrici.
 
 In particolare è possibile fare un parallelismo tra il flusso d'aria e la corrente elettrica (flusso di cariche) vedendo e la pressione come la presenza di un potenziale elettrico.
-Si rivede allora la resistenza meccanica come il rapporto tra l'incremento di pressione rispetto il flusso, analoga alla resisitenza elettrica. Similmente la compliance non è altro che il rapporto tra l'aumento di volume e l'aumento di pressione, in analogia elettrica è un condensatore.
+Si rivede allora la resistenza meccanica come il rapporto tra l'incremento di pressione rispetto il flusso, analoga alla resistenza elettrica. Similmente la compliance non è altro che il rapporto tra l'aumento di volume e l'aumento di pressione, in analogia elettrica è un condensatore.
 
 Il sistema in \cref{fig:modello} è un modello di meccanica respiratoria che trascura la presenza di contributi inerziali (non ci induttanze) e considera la presenza di due compartimenti. Sono separate le vie aeree superiori, con il loro contributo resistivo $R_C$ dalle vie aeree inferiori $R_P$. I due compartimenti sono in serie tra loro ed in serie ai serbatoi d'aria, ovvero le capacità rappresentanti il contributo di compliance della parete $C_W$ e del polmone $C_L$. 
-Tali contributi sono in serie proprio perchè il volume d'aria passante è lo stesso. 
+Tali contributi sono in serie proprio perché il volume d'aria passante è lo stesso. 
 
 A questo si aggiunge anche la capacità di shunt $C_S$ che tiene conto di diversi contributi quali lo spazio morto anatomico, la deformabilità delle vie aeree e la comprimibilità dell'aria. Normalmente questo volume è molto piccolo in condizioni respiratorie normali (in assenza di patologie) e a basse frequenze respiratorie.
 
@@ -296,7 +296,17 @@ A tal proposito viene anche modificata l'interfaccia grafica (\cref{fig:mask}) i
 Una volta impostato tale simulatore permette di calibrare la ventilazione e di addestrarsi nell'utilizzo di un ventilatore reale andando a vedere come i diversi parametri di ventilazione influenzano la meccanica respiratoria e soprattutto come modificare la ventilazione in base alla risposta del paziente.
 \\
 
-Nelle sezioni successive vengono fissati i parametri di ventilazione \cite{truwit_modes_2011} ad una frequenza di 18 respiri/min, un tempo di inspirazione del 40\% e un rise time del 20\%, con una $\mathrm{PEEP}$ di 5 cm H\textsubscript{2}O e una $P_{aO}=25$  cm H\textsubscript{2}O, e si analizza come varia la ventilazione in funzione della variazione dei parametri del paziente. 
+Nelle sezioni successive vengono fissati i parametri di ventilazione \cite{truwit_modes_2011} ad una frequenza di 18 respiri/min, un tempo di inspirazione del 30\% e un rise time del 15\%, con una $\mathrm{PEEP}$ di 5 cm H\textsubscript{2}O e una $P_{aO}=25$  cm H\textsubscript{2}O Questi parametri permettono di approssimare le forme d'onda tipicamente utilizzate in clinica \cite{al-naggar_modelling_2015}. 
+
+Al fine di soddisfare la risposta del polmone, in termini di volume tidale \cite{ventilation_2000}, è necessario soddisfare una compliance complessiva del polmone di circa:
+
+\begin{equation}
+	C_{T}=\left({1 \over C_{W}}+{1 \over C_{L}}\right)^{-1}\approx 10 \text{mL/cmH2O}
+\end{equation}
+
+Allora segue l'analisi considerando dei parametri medi di un'ordine di grandezza inferiore: $C_w=0.02$ L/cmH\textsubscript{2}O e $C_L=0.02$ L/cmH\textsubscript{2}O .
+
+Si analizza allora come varia la ventilazione in funzione della variazione dei parametri del paziente. 
 
  \begin{figure*}[t!]
 	\begin{subfigure}{0.5\linewidth}
@@ -351,7 +361,6 @@ I risultati mostrano come è
 
 Il materiale è disponibile alla repository online del progetto: \url{https://github.com/mastroalex/resp-mech-simulink}
 
-\subsection*{Codice}
 
 \raggedbottom
 
@@ -365,16 +374,57 @@ Il materiale è disponibile alla repository online del progetto: \url{https://gi
 \section*{Appendice}
 \subsection*{Codice per la generazione della pressione di ingresso}
  \begin{figure*}[h!]
-\begin{lstlisting}[language=matlab]
-	content...
+\begin{lstlisting}[language=matlab,basicstyle=\tiny\ttfamily,]
+function y = fcn(t,flag_ventilation,breath_for_minute,tau_int,Paw,PEEP,T_insp)
+	% % % to avoid error use the `odeN` solver !
+	f=breath_for_minute/60; % breathing frequence in Hz
+	% pressure diffrence from maximus value and PEEP
+	DeltaPressure=Paw-PEEP; 
+	A=0; % initialize output variable
+	if flag_ventilation==1 % flag=1 for sine wave
+		% sine wave from Khoo Physiological Control Sistem
+		% amplitude peak-peak of 5 cmH2O
+		amplitude=5;
+		A=amplitude*sin(2*pi*f*t);  
+	end
+	if flag_ventilation==2 % flag=2 for perfect square wave
+		dt=rem(t,(1/f)); % current time (of single period)
+		period=1/f; 
+		half_period=period/2; % duty cycle of 50 % by selecting half period
+		if  dt<half_period % semi-period where the output is on
+			amplitude=5;   % amplitude of 5 [cmH2O] 
+			A=amplitude; % set the output constant
+		end
+		if dt>= half_period % semi-period where the output is zero
+			A=0; % set the output to zero 
+		end 
+	end
+	if flag_ventilation==3 % flag=3 for square wave with rise time tau
+		period=1/f; 
+		dt=rem(t,(1/f));  % current time (of single period)
+		% the inspiratory time (where the output is on) is defined  usign percentage of total period with T_insp from ventilator GUI
+		% also the rise time is defined using percentage of inspiratory time with tau_int from ventilator GUI
+		insp_Time=(T_insp/100)*period; 
+		tau=(tau_int/100)*insp_Time;
+		if dt < tau % rise time
+			% linear growth of the pressur with offset 
+			A=DeltaPressure*(dt/tau)+PEEP; 
+		end
+		if  (dt>=tau) && (dt<insp_Time) % the pressure is max (square wave on)
+			A=DeltaPressure+PEEP;
+		end
+		if dt>= insp_Time %the pressure is min (square wave off)
+			A=PEEP;
+		end 
+	end
+	y=A; % set the pressure wave as function output
+end
 \end{lstlisting}
-\end{figure*}
 
 \subsection*{Interfaccia grafica completa}
 
- \begin{figure*}[h!]
 \centering\includegraphics[angle=90,width=0.96\linewidth]{GUI.png}
-	\caption{Interfaccia grafica completa del modello di ventilatore polmonare}
+	\caption{Interfaccia grafica completa del modello di ventilatore polmonare con possibilità di selezionare la forma d'onda, frequenza, pressione massima e minima, rise time e duty cycle.}
 	\label{fig:interfaccia}
 \end{figure*}
 
