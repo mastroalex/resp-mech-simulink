@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  25 MAY 2022 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  25 MAY 2022 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1998,41 +1998,42 @@ File: ../model/data_log/CwCL_volume_total.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../model/data_log/CwCL_volume_total.pdf  used on input
  line 423.
 (pdftex.def)             Requested size: 471.51228pt x 162.70311pt.
-File: ../model/data_log/Rc_volume_zoom.pdf Graphic file (type pdf)
-<use ../model/data_log/Rc_volume_zoom.pdf>
-Package pdftex.def Info: ../model/data_log/Rc_volume_zoom.pdf  used on input li
-ne 433.
-(pdftex.def)             Requested size: 235.75613pt x 199.04517pt.
-<../model/data_log/CwCL_PV.pdf, id=339, 365.365pt x 295.1025pt>
+<../model/data_log/CwCL_volume_zoom.pdf, id=339, 362.35374pt x 310.15875pt>
+File: ../model/data_log/CwCL_volume_zoom.pdf Graphic file (type pdf)
+<use ../model/data_log/CwCL_volume_zoom.pdf>
+Package pdftex.def Info: ../model/data_log/CwCL_volume_zoom.pdf  used on input 
+line 432.
+(pdftex.def)             Requested size: 235.75613pt x 201.79956pt.
+<../model/data_log/CwCL_PV.pdf, id=340, 365.365pt x 295.1025pt>
 File: ../model/data_log/CwCL_PV.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_PV.pdf>
-Package pdftex.def Info: ../model/data_log/CwCL_PV.pdf  used on input line 438.
+Package pdftex.def Info: ../model/data_log/CwCL_PV.pdf  used on input line 437.
 
 (pdftex.def)             Requested size: 235.75613pt x 190.41844pt.
-<../model/data_log/Cs_fluxCS.pdf, id=340, 616.3025pt x 321.2pt>
+<../model/data_log/Cs_fluxCS.pdf, id=341, 616.3025pt x 321.2pt>
 File: ../model/data_log/Cs_fluxCS.pdf Graphic file (type pdf)
 <use ../model/data_log/Cs_fluxCS.pdf>
 Package pdftex.def Info: ../model/data_log/Cs_fluxCS.pdf  used on input line 44
-7.
+6.
 (pdftex.def)             Requested size: 282.91023pt x 147.44502pt.
-<../model/data_log/CwCL_deltaflux.pdf, id=341, 370.38374pt x 309.155pt>
+<../model/data_log/CwCL_deltaflux.pdf, id=342, 370.38374pt x 309.155pt>
 File: ../model/data_log/CwCL_deltaflux.pdf Graphic file (type pdf)
 <use ../model/data_log/CwCL_deltaflux.pdf>
 Package pdftex.def Info: ../model/data_log/CwCL_deltaflux.pdf  used on input li
-ne 452.
+ne 451.
 (pdftex.def)             Requested size: 188.60204pt x 157.42638pt.
 
-Underfull \hbox (badness 4569) in paragraph at lines 466--467
+Underfull \hbox (badness 4569) in paragraph at lines 465--466
 []\T1/stix/m/n/12 Nel caso di edema polomonare car-dio-geno
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 468--469
+Underfull \hbox (badness 1946) in paragraph at lines 467--468
 \T1/stix/m/n/12 tribuis-cono a ridurre la com-pli-ance pol-monare
  []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 474.
+LaTeX Font Warning: Command \small invalid in math mode on input line 473.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2044,7 +2045,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8 <../model/data_log/data_square_wave_rise_15_Tinsp_40_PEEP_5_Paw_25_freq_18.p
 df> <../model/data_log/PV_rise_time.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3803) has occurred while \output is active []
 
 
 
@@ -2078,17 +2079,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
-[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
-\T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
-m /
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -2103,6 +2093,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [11 <../model/data_log/CwCL_flux_total.pdf> <../model/data_log/CwCL_flux_zoom1.
 pdf> <../model/data_log/CwCL_flux_zoom2.pdf> <../model/data_log/CwCL_volume_tot
 al.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12 <../model/data_log/CwCL_volume_zoom.pdf> <../model/data_log/CwCL_PV.pdf> <.
+./model/data_log/Cs_fluxCS.pdf> <../model/data_log/CwCL_deltaflux.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 488--489
+\T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
+m /
+ []
+
+
 Underfull \hbox (badness 1939) in paragraph at lines 494--494
 \T1/stix/m/n/12 Daoud. ``Go with the flow^^Vclinical im-
  []
@@ -2113,15 +2127,6 @@ Underfull \hbox (badness 1033) in paragraph at lines 494--494
  []
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[12 <../model/data_log/CwCL_PV.pdf> <../model/data_log/Cs_fluxCS.pdf> <../model
-/data_log/CwCL_deltaflux.pdf>]
 Underfull \hbox (badness 2884) in paragraph at lines 494--494
 \T1/stix/m/n/12 u-la-tion of Pres-sure Con-trolled Me-chan-i-
  []
@@ -2160,6 +2165,14 @@ Underfull \hbox (badness 1237) in paragraph at lines 494--494
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
 Underfull \hbox (badness 1102) in paragraph at lines 494--494
 \T1/stix/m/it/12 chan-i-cal Ven-ti-la-tion\T1/stix/m/n/12 . Ed. by Jonathon D.
  []
@@ -2199,10 +2212,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+[14
+
+] (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-<figures//GUI.png, id=492, 389.95688pt x 716.6775pt>
+<figures//GUI.png, id=499, 389.95688pt x 716.6775pt>
 File: figures//GUI.png Graphic file (type png)
 <use figures//GUI.png>
 Package pdftex.def Info: figures//GUI.png  used on input line 552.
@@ -2218,7 +2233,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14
+[15
 
 
  <./figures//GUI.png>] (./report_respiratory_simulink.aux)
@@ -2228,10 +2243,10 @@ Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47538 strings out of 478579
- 1081474 string characters out of 5857457
- 2171689 words of memory out of 5000000
- 64687 multiletter control sequences out of 15000+600000
+ 47547 strings out of 478579
+ 1081814 string characters out of 5857457
+ 2171785 words of memory out of 5000000
+ 64695 multiletter control sequences out of 15000+600000
  531966 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,97p,1897b,1954s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2249,10 +2264,10 @@ texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/texmf-dist/
 fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1
 /public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/sti
 x/stix-mathscr.pfb>
-Output written on report_respiratory_simulink.pdf (14 pages, 1994862 bytes).
+Output written on report_respiratory_simulink.pdf (15 pages, 2014448 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 406 compressed objects within 5 object streams
+ 562 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

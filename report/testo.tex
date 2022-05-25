@@ -355,7 +355,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_flux_zoom2.pdf}
 	\caption{}
 \end{subfigure}\hfill
-\caption{}
+\caption{Flusso con variazione della resistenza delle vie aeree superiori $R_c$ nel range $0.6\div 1$ [cmH\textsubscript{2}O s/L]. Flusso nel tempo (a); zooma nel secondo periodo respiratorio sulla zona di influsso (b) ed efflusso (c). Si vede come al ridursi della resistenza aumenta la velocità di variazione e il picco massimo.}
 \begin{subfigure}{0.7\linewidth}
 	\centering
 	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_volume_total.pdf}
@@ -366,7 +366,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_volume_zoom.pdf}
 	\caption{}
 \end{subfigure}\hfill
-\caption{}
+\caption{Volume con variazione della resistenza delle vie aeree superiori $R_c$ nel range $0.6\div 1$ [cmH\textsubscript{2}O s/L]. Volume nel tempo (a); zoom sul secondo periodo respiratorio (b). Si vede come il volume risente molto poco della variazione della resistenza.}
 \end{figure*}
 
 
@@ -386,7 +386,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_flux_zoom2.pdf}
 		\caption{}
 	\end{subfigure}\hfill
-	\caption{}
+	\caption{Flusso con variazione della resistenza delle vie aeree inferiori $R_p$ nel range $0.1\div 1$ [cmH\textsubscript{2}O s/L]. Flusso nel tempo (a); zoom nel secondo periodo respiratorio sulla zona di influsso (b) ed efflusso (c). Si osserva un comportamento particolare, all'aumentare della resistenza aumenta il picco del flusso.}
 	\begin{subfigure}{0.7\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_volume_total.pdf}
@@ -397,7 +397,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\includegraphics[width=0.95\linewidth]{../model/data_log/Rp_volume_zoom.pdf}
 		\caption{}
 	\end{subfigure}\hfill
-	\caption{}
+	\caption{Volume con variazione della resistenza delle vie aeree inferiori $R_p$ nel range $0.1\div 1$ [cmH\textsubscript{2}O s/L]. Volume nel tempo (a); zoom sul secondo periodo respiratorio (b). Si vede come il volume risente molto poco della variazione della resistenza $R_p$. }
 \end{figure*}
 
 
@@ -417,20 +417,19 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_flux_zoom2.pdf}
 		\caption{}
 	\end{subfigure}\hfill
-	\caption{}
+	\caption{Flusso con variazione della compliance polmonare (serie di $C_w$ e $C_L$) nel range $0.005\div 0.050$ [L/cmH\textsubscript{2}O]. Flusso nel tempo (a); zoom nel secondo periodo respiratorio sulla zona di influsso (b) ed efflusso (c). Si osserva come il flusso è fortemente influenzato dalla compliance polmonare. L'aumento della capacità $C_T$ porta ad un forte aumento del picco di flusso.}
 	\begin{subfigure}{\linewidth}
 		\centering
 		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_volume_total.pdf}
-		\caption{}
 	\end{subfigure}\hfill
-	\caption{}
+	\caption{Volume con variazione della compliance polmonare (serie di $C_w$ e $C_L$) nel range $0.005\div 0.050$ [L/cmH\textsubscript{2}O]. Si vede come il volume è fortemente influenzato da $C_T$ ed in particolare come considerare valori troppo alti porta ad un ingresso di volume elevato che può risultare pericoloso per il polmone.}
 \end{figure*}
 
 
 \begin{figure*}[t!]
 	\begin{subfigure}{0.5\linewidth}
 	\centering
-	\includegraphics[width=0.95\linewidth]{../model/data_log/Rc_volume_zoom.pdf}
+	\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_volume_zoom.pdf}
 	\caption{}
 \end{subfigure}\hfill
 	\begin{subfigure}{0.5\linewidth}
@@ -438,7 +437,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 	\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_PV.pdf}
 	\caption{}
 \end{subfigure}\hfill
-	\caption{}
+	\caption{Volume con variazione della compliance polmonare (serie di $C_w$ e $C_L$) nel range $0.005\div 0.050$ [L/cmH\textsubscript{2}O]. Zoom sul secondo periodo respiratorio (a) e diagramma PV (b). Si vede come il volume è fortemente influenzato da $C_T$ ed in particolare come considerare valori troppo alti porta ad un ingresso di volume elevato che può risultare pericoloso per il polmone. Si vede, dal diagramma pressione-volume, come a parità di pressione può entrare un volume nettamente superiore a quanto dovrebbe essere garantito per rispettare i limiti fisiologici. }
 \end{figure*}
 
 \begin{figure*}[t!]
@@ -452,7 +451,7 @@ A questo si aggiungono anche dei fattori esterni che possono variare sia la resi
 		\includegraphics[width=0.95\linewidth]{../model/data_log/CwCL_deltaflux.pdf}
 		\caption{}
 	\end{subfigure}\hfill
-	\caption{}
+	\caption{Flusso variando $C_s$ nel range $0.001\div 0.01$ [L/cmH\textsubscript{2}O] (a); norma della differenza di flusso tra shunt e alveoli (\cref{eq:shunt_Delta}) rispetto la variazione di $C_s$ (b). Si vede come aumentando la capacità di shunt un maggior flusso (e quindi volume) passerà per il ramo di shunt mentre il flusso complessivamente richiesto al ventilatore rimane quasi costante. Inoltre, più aumenta la $C_s$ più aumenta la differenza tra il flusso di shunt e quello alveolare e quindi il volume d'aria che effettivamente entra nel polmone si riduce. }
 \end{figure*}
 
 
@@ -473,6 +472,7 @@ A questo si aggiungono altri fattori che contribuiscono a ridurre la compliance 
 \begin{equation}
 	\small{
 \Delta \mathrm{Flux}={	\|\text{flusso su }C_s - \text{flusso alveolare}\|\over \max\left(\text{flusso su }C_s - \text{flusso alveolare}\right)}}
+\label{eq:shunt_Delta}
 \end{equation}
 
 \section{Conclusioni}
