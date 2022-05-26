@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  25 MAY 2022 22:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  26 MAY 2022 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2145,44 +2145,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12 <../model/data_log/CwCL_volume_zoom.pdf> <../model/data_log/CwCL_PV.pdf> <.
 ./model/data_log/Cs_fluxCS.pdf> <../model/data_log/CwCL_deltaflux.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
-[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
+Underfull \hbox (badness 1033) in paragraph at lines 532--533
+[]\T1/stix/m/n/12 La disponi-bil-ità di un mod-ello di ven-ti-la-tore
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 532--533
+\T1/stix/m/n/12 res-pi-ra-to-ria per-me-tte di sim-u-lare l'interazione
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 532--533
+\T1/stix/m/n/12 ventilatore-patologia e anal-iz-zare il metodo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 537--537
+Underfull \vbox (badness 3291) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 542--542
 \T1/stix/m/n/12 Daoud. ``Go with the flow^^Vclinical im-
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 537--537
+Underfull \hbox (badness 1033) in paragraph at lines 542--542
 \T1/stix/m/n/12 por-tance of flow curves dur-ing me-chan-i-
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 537--537
+Underfull \hbox (badness 2884) in paragraph at lines 542--542
 \T1/stix/m/n/12 u-la-tion of Pres-sure Con-trolled Me-chan-i-
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 537--537
+Underfull \hbox (badness 2065) in paragraph at lines 542--542
 \T1/stix/m/n/12 cal Ven-ti-la-tion Sys-tem''. en. In: \T1/stix/m/it/12 Jour-nal
 
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 537--537
+Underfull \hbox (badness 4479) in paragraph at lines 542--542
 \T1/stix/m/it/12 of Biomed-i-cal Sci-ence and En-gi-neer-ing
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 537--537
+Underfull \hbox (badness 2245) in paragraph at lines 542--542
 \T1/stix/m/n/12 08.10 (2015), pp. 707^^U716. \T1/stix/m/sc/12 issn\T1/stix/m/n/
 12 : 1937-
  []
@@ -2197,50 +2215,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [13 <../model/data_log/Rc_flux_alveolar_zoom.pdf> <../model/data_log/Rp_flux_al
 veolar_zoom.pdf> <../model/data_log/CwCL_alveolar_flux_zoom.pdf>]
-Underfull \hbox (badness 5893) in paragraph at lines 537--537
+Underfull \hbox (badness 5893) in paragraph at lines 542--542
 \T1/stix/m/it/12 Crit-i-cal Care Nurse \T1/stix/m/n/12 31.3 (June 2011),
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 537--537
+Underfull \hbox (badness 1953) in paragraph at lines 542--542
 \T1/stix/m/n/12 pp. 30^^U44. \T1/stix/m/sc/12 issn\T1/stix/m/n/12 : 0279-5442, 
 1940-8250.
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 537--537
+Underfull \hbox (badness 1237) in paragraph at lines 542--542
 \T1/cmtt/m/n/12 / / aacnjournals . org / ccnonline /
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 537--537
+Underfull \hbox (badness 1102) in paragraph at lines 542--542
 \T1/stix/m/it/12 chan-i-cal Ven-ti-la-tion\T1/stix/m/n/12 . Ed. by Jonathon D.
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 537--537
+Underfull \hbox (badness 1320) in paragraph at lines 542--542
 \T1/stix/m/n/12 Tidal Vol-umes as Com-pared with Tra-di-
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 537--537
+Underfull \hbox (badness 1178) in paragraph at lines 542--542
 \T1/stix/m/it/12 Medicine \T1/stix/m/n/12 342.18 (May 2000), pp. 1301^^U
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 537--537
+Underfull \hbox (badness 1859) in paragraph at lines 542--542
 \T1/stix/m/n/12 1308. \T1/stix/m/sc/12 issn\T1/stix/m/n/12 : 0028-4793, 1533-44
 06. \T1/stix/m/sc/12 doi\T1/stix/m/n/12 :
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 537--537
+Underfull \hbox (badness 1308) in paragraph at lines 542--542
 \T1/stix/m/n/12 en. Mi-lano: Springer Mi-lan, 1999. \T1/stix/m/sc/12 isbn\T1/st
 ix/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/stix/m/n/12 978-88-470-0046-9 978-88-470-2273-7.
  []
 
@@ -2258,7 +2276,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 <figures//GUI.png, id=450, 389.95688pt x 716.6775pt>
 File: figures//GUI.png Graphic file (type png)
 <use figures//GUI.png>
-Package pdftex.def Info: figures//GUI.png  used on input line 595.
+Package pdftex.def Info: figures//GUI.png  used on input line 600.
 (pdftex.def)             Requested size: 389.95592pt x 716.67577pt.
 )
 
@@ -2284,10 +2302,10 @@ Package logreq Info: Writing requests to 'report_respiratory_simulink.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47576 strings out of 478579
- 1082915 string characters out of 5857457
- 2171229 words of memory out of 5000000
- 64722 multiletter control sequences out of 15000+600000
+ 47574 strings out of 478579
+ 1082890 string characters out of 5857457
+ 2172229 words of memory out of 5000000
+ 64720 multiletter control sequences out of 15000+600000
  534695 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,97p,1897b,1954s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2305,7 +2323,7 @@ texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/texmf-dist/
 fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1
 /public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/sti
 x/stix-mathscr.pfb>
-Output written on report_respiratory_simulink.pdf (15 pages, 1288366 bytes).
+Output written on report_respiratory_simulink.pdf (15 pages, 1287956 bytes).
 PDF statistics:
  512 PDF objects out of 1000 (max. 8388607)
  391 compressed objects within 4 object streams
