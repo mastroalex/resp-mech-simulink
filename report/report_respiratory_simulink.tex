@@ -67,7 +67,7 @@
 \usepackage{authblk}
 \renewcommand\Affilfont{\tiny \color{gray}}
 
-\title{\vspace*{10 pt}\color{myGeneralColor}\Huge\textbf{Simulazione di un modello circuitale descrittivo della meccanica respiratoria in Simulink}\vspace*{1 pt}}
+\title{\vspace*{10 pt}\color{myGeneralColor}\Huge\textbf{Simulazione di un modello circuitale per la meccanica respiratoria in Simulink}\vspace*{1 pt}}
 \author[]{Mastrofini Alessandro}
 \affil[]{\small alessandro.mastrofini@alumni.uniroma2.eu}
 \renewcommand*{\Authand}{ e }
@@ -164,13 +164,14 @@ sorting=none
 % \noindent
 % \noindent
 % \noindent
-La ventilazione polmonare è un'operazione critica sia durante gli interventi che per la ventilazione assistita o sostitutiva del paziente. In questo report si propone l'analisi di un modello di meccanica polmonare tramite un'analogia elettrica con un circuito equivalente composto da resistenze e capacitori.
+La ventilazione polmonare è un'operazione critica sia durante gli interventi chirurgici che per la ventilazione assistita o sostitutiva del paziente. 
 
-Tale analogia elettrica-meccanica permette di analizzare come la variazione dei parametri polmonari influenza la ventilazione nel caso di ventilatori a controllo di pressione e simulare la risposta del sistema polmonare alla ventilazione.
+In questo report si propone l'analisi di un modello di meccanica polmonare tramite un'analogia elettrica con un circuito equivalente composto da resistenze e capacitori.
+Tale analogia elettrica-meccanica permette di analizzare come la variazione dei parametri polmonari influenza la ventilazione nel caso di ventilatori a controllo di pressione e quindi di simulare la risposta del sistema polmonare alla ventilazione.
 
-Viene inoltre proposto un modello matematico per l'implementazione di un ventilatore a controllo di pressione con onda quadra all'interno dell'ambiente di simulazione \texttt{Simulink} con interfaccia grafica e parametri selezionabili dall'utente. 
+Viene inoltre proposto un modello matematico per l'implementazione di un ventilatore a controllo di pressione con onda quadra, all'interno dell'ambiente di modellazione \texttt{Simulink}, con interfaccia grafica e parametri selezionabili dall'utente. 
 
-Vengono quindi simulate diverse condizioni patologiche e si vede come la compliance polmonare ha un grande effetto. Anche piccole variazioni si riflettono in grandi variazioni del volume d'aria in ingresso fino a stati pericolosi per il paziente stesso. 
+Vengono quindi simulate diverse condizioni patologiche andando a vedere come la variazione della compliance polmonare ha l'effetto predominante. Piccole variazioni dei valori di capacità si riflettono in grandi variazioni del volume d'aria in ingresso fino a stati pericolosi per il paziente stesso. 
 
 %% ABSTRACT 
 
