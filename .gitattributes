@@ -1,3 +1,4 @@
 # ignore .tex file
 report/* linguist-vendored
 report/report_respiratory_simulink.tex linguist-vendored=false
+report/**/* linguist-vendored
