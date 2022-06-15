@@ -1,2 +1,3 @@
 # ignore .tex file
 report/* linguist-vendored
+report/testo.tex linguist-vendored=false
